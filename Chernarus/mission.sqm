@@ -15677,7 +15677,7 @@ class Mission
 			dataType="Marker";
 			position[]={15119.832,0,285.08899};
 			name="respawn_west_carrier";
-			text="Carrier";
+			text="USS Freedom";
 			type="Empty";
 			angle=352.45596;
 			id=2674;
