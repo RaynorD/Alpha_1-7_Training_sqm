@@ -2018,12 +2018,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4117.2036,458.17334,7616.7354};
+				position[]={4117.2041,458.17316,7616.7349};
 				angles[]={0,6.1515174,0};
 			};
 			id=838;
 			type="ace_zeus_moduleSettings";
-			atlOffset=165.58212;
+			atlOffset=165.58197;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2136,7 +2136,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
