@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15081.363,73.048874,131.33435};
-		dir[]={-0.78730112,-0.2756767,0.55150974};
-		up[]={-0.2257898,0.96125031,0.1581675};
-		aside[]={0.57374245,-2.4447218e-007,0.8190372};
+		pos[]={15143.381,24.464602,329.22073};
+		dir[]={0.7817474,-0.31987837,0.53531331};
+		up[]={0.26395479,0.94744849,0.18074702};
+		aside[]={0.5649991,-1.5378464e-007,-0.82509887};
 	};
 };
 binarizationWanted=0;
@@ -15666,13 +15666,13 @@ class Mission
 		class Item281
 		{
 			dataType="Marker";
-			position[]={15119.832,0,285.08899};
+			position[]={15143.594,0,329.21741};
 			name="respawn_west_carrier";
 			text="USS Freedom";
 			type="Empty";
 			angle=352.45593;
 			id=2674;
-			atlOffset=151.3082;
+			atlOffset=151.3748;
 		};
 	};
 	class Connections
