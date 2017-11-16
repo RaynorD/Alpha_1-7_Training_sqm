@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3253;
+		nextID=3257;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12074.895,98.757446,2421.6069};
-		dir[]={-0.52014285,-0.54070801,-0.66122329};
-		up[]={-0.33434144,0.84117067,-0.42502567};
-		aside[]={-0.78601378,3.9371662e-007,0.61830598};
+		pos[]={11338.09,33.667858,2571.0227};
+		dir[]={0.31515521,-0.43124792,-0.8454867};
+		up[]={0.15065125,0.90219402,-0.4041625};
+		aside[]={-0.93708086,7.1618706e-007,-0.34929809};
 	};
 };
 binarizationWanted=0;
@@ -71,6 +71,7 @@ addons[]=
 	"A3_Structures_F_Furniture",
 	"A3_Props_F_Orange_Humanitarian_Supplies",
 	"rhsusf_vehicles",
+	"A3_Characters_F_Jets",
 	"ace_advanced_ballistics",
 	"ace_advanced_throwing",
 	"A3_Structures_F_Argo_Signs_Warnings",
@@ -92,7 +93,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=47;
+		items=48;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -334,68 +335,75 @@ class AddonsMetaData
 		};
 		class Item35
 		{
+			className="A3_Characters_F_Jets";
+			name="Arma 3 Jets - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item36
+		{
 			className="ace_advanced_ballistics";
 			name="ACE3 - Advanced Ballistics";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item36
+		class Item37
 		{
 			className="ace_advanced_throwing";
 			name="ACE3 - Advanced Throwing";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item37
+		class Item38
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item38
+		class Item39
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item39
+		class Item40
 		{
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item40
+		class Item41
 		{
 			className="MBG_Buildings_3";
 			name="MBG_Buildings_3";
 		};
-		class Item41
+		class Item42
 		{
 			className="CUP_CAMisc_E_WF";
 			name="CUP_CAMisc_E_WF";
 		};
-		class Item42
+		class Item43
 		{
 			className="CUP_StandaloneTerrains_Core_Faction";
 			name="CUP_StandaloneTerrains_Core_Faction";
 		};
-		class Item43
+		class Item44
 		{
 			className="plp_beachobjects";
 			name="plp_beachobjects";
 		};
-		class Item44
+		class Item45
 		{
 			className="CUP_CA_Config";
 			name="CUP_CA_Config";
 		};
-		class Item45
+		class Item46
 		{
 			className="plp_rmairport";
 			name="plp_rmairport";
 		};
-		class Item46
+		class Item47
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
@@ -630,7 +638,7 @@ class Mission
 			text="Pad 3";
 			type="c_air";
 			colorName="ColorWEST";
-			angle=43.672684;
+			angle=43.67268;
 			id=29;
 		};
 		class Item10
@@ -13589,7 +13597,7 @@ class Mission
 						angles[]={0,6.1524425,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						skill=1;
@@ -13599,8 +13607,8 @@ class Mission
 						description="Mission Controller 1";
 						isPlayable=1;
 					};
-					id=2455;
-					type="B_officer_F";
+					id=3253;
+					type="B_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13816,7 +13824,7 @@ class Mission
 						angles[]={0,6.1524425,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						skill=1;
@@ -13826,8 +13834,8 @@ class Mission
 						description="Mission Controller 2";
 						isPlayable=1;
 					};
-					id=2458;
-					type="B_officer_F";
+					id=3254;
+					type="B_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -14044,7 +14052,7 @@ class Mission
 						angles[]={0,6.1524425,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						skill=1;
@@ -14054,8 +14062,8 @@ class Mission
 						description="Mission Controller 3";
 						isPlayable=1;
 					};
-					id=2461;
-					type="B_officer_F";
+					id=3255;
+					type="B_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -14271,7 +14279,7 @@ class Mission
 						angles[]={0,6.1524425,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						skill=1;
@@ -14281,8 +14289,8 @@ class Mission
 						description="Mission Controller 4";
 						isPlayable=1;
 					};
-					id=2464;
-					type="B_officer_F";
+					id=3256;
+					type="B_Fighter_Pilot_F";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
