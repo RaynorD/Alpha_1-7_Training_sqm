@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2517;
+		nextID=2521;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15172.993,42.91,17232.857};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={14634.846,27.884037,16770.908};
+		dir[]={-0.45041806,-0.74940014,0.48532566};
+		up[]={-0.50978291,0.66211677,0.54929137};
+		aside[]={0.73298174,-7.5192656e-007,0.68026239};
 	};
 };
 binarizationWanted=0;
@@ -97,7 +97,6 @@ addons[]=
 	"ace_gforces",
 	"ace_parachute",
 	"A3_Boat_F_Jets_Carrier_01",
-	"A3_Characters_F_Jets",
 	"ace_advanced_throwing",
 	"ace_advanced_ballistics"
 };
@@ -105,7 +104,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=47;
+		items=46;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -412,19 +411,12 @@ class AddonsMetaData
 		};
 		class Item44
 		{
-			className="A3_Characters_F_Jets";
-			name="Arma 3 Jets - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item45
-		{
 			className="ace_advanced_throwing";
 			name="ACE3 - Advanced Throwing";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item46
+		class Item45
 		{
 			className="ace_advanced_ballistics";
 			name="ACE3 - Advanced Ballistics";
@@ -985,7 +977,7 @@ class Mission
 			name="respawn_west_frini";
 			text="Frini Field Medical Centre";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=43;
 			atlOffset=-77.530365;
 		};
@@ -1428,7 +1420,7 @@ class Mission
 			name="respawn_west_dorida";
 			text="Dorida Wire Course";
 			type="Empty";
-			angle=162.93698;
+			angle=162.93697;
 			id=91;
 			atlOffset=-118.43304;
 		};
@@ -21424,7 +21416,7 @@ class Mission
 			};
 			id=1937;
 			type="Sign_Sphere100cm_F";
-			atlOffset=2.6653442;
+			atlOffset=6.6862812;
 		};
 		class Item498
 		{
@@ -21439,7 +21431,7 @@ class Mission
 			};
 			id=1938;
 			type="Sign_Sphere100cm_F";
-			atlOffset=1.0948715;
+			atlOffset=7.4986115;
 		};
 		class Item499
 		{
@@ -21454,7 +21446,7 @@ class Mission
 			};
 			id=1939;
 			type="Sign_Sphere100cm_F";
-			atlOffset=4.879797;
+			atlOffset=5.1643105;
 		};
 		class Item500
 		{
@@ -28803,8 +28795,8 @@ class Mission
 						description="Mission Controller 1";
 						isPlayable=1;
 					};
-					id=2506;
-					type="B_Fighter_Pilot_F";
+					id=2517;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29026,8 +29018,8 @@ class Mission
 						description="Mission Controller 2";
 						isPlayable=1;
 					};
-					id=2507;
-					type="B_Fighter_Pilot_F";
+					id=2518;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29249,8 +29241,8 @@ class Mission
 						description="Mission Controller 3";
 						isPlayable=1;
 					};
-					id=2508;
-					type="B_Fighter_Pilot_F";
+					id=2519;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29472,8 +29464,8 @@ class Mission
 						description="Mission Controller 4";
 						isPlayable=1;
 					};
-					id=2509;
-					type="B_Fighter_Pilot_F";
+					id=2520;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30035,7 +30027,7 @@ class Mission
 			name="respawn_west_oreo";
 			text="Oreokastro Air Station";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=2510;
 			atlOffset=-187.52763;
 		};
@@ -30046,7 +30038,7 @@ class Mission
 			name="respawn_west_kavala";
 			text="Kavala Castle Trail";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=2511;
 			atlOffset=-11.322989;
 		};
@@ -30057,7 +30049,7 @@ class Mission
 			name="respawn_west_rotary";
 			text="Rotary";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=2512;
 			atlOffset=-19.262554;
 		};
@@ -30068,7 +30060,7 @@ class Mission
 			name="respawn_west";
 			text="Base (Terminal)";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=2513;
 			atlOffset=-17.91;
 		};
@@ -30079,7 +30071,7 @@ class Mission
 			name="respawn_west_fixed";
 			text="Base (Fixed Wing)";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=2514;
 			atlOffset=-17.91;
 		};
@@ -30090,7 +30082,7 @@ class Mission
 			name="respawn_west_kalo";
 			text="Kalochori Training Centre";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=2515;
 			atlOffset=-5.2535839;
 		};
@@ -30101,7 +30093,7 @@ class Mission
 			name="respawn_west_freedom";
 			text="USS Freedom";
 			type="Empty";
-			angle=346.80396;
+			angle=346.80392;
 			id=2516;
 			atlOffset=69.871315;
 		};
