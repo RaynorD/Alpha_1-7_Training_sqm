@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15095.327,100.70515,229.96457};
-		dir[]={0.34743872,-0.7536906,0.55788708};
-		up[]={0.39843166,0.65722895,0.63976693};
-		aside[]={0.84884602,-6.0535967e-009,-0.52864116};
+		pos[]={15081.363,73.048874,131.33435};
+		dir[]={-0.78730112,-0.2756767,0.55150974};
+		up[]={-0.2257898,0.96125031,0.1581675};
+		aside[]={0.57374245,-2.4447218e-007,0.8190372};
 	};
 };
 binarizationWanted=0;
@@ -647,7 +647,7 @@ class Mission
 			name="respawn_west";
 			text="Aviation";
 			type="Empty";
-			angle=352.45593;
+			angle=352.4559;
 			id=47;
 			atlOffset=-339;
 		};
@@ -12962,13 +12962,12 @@ class Mission
 		class Item154
 		{
 			dataType="Marker";
-			position[]={15106.498,-1.6259766,272.79797};
+			position[]={15106.498,0,272.798};
 			name="marker_98";
 			text="USS Freedom";
 			type="b_naval";
-			angle=58.802982;
 			id=2464;
-			atlOffset=149.59056;
+			atlOffset=151.21654;
 		};
 		class Item155
 		{
@@ -15660,7 +15659,7 @@ class Mission
 			name="respawn_west_ground";
 			text="Ground";
 			type="Empty";
-			angle=352.45596;
+			angle=352.45593;
 			id=2673;
 			atlOffset=-339;
 		};
@@ -15671,7 +15670,7 @@ class Mission
 			name="respawn_west_carrier";
 			text="USS Freedom";
 			type="Empty";
-			angle=352.45596;
+			angle=352.45593;
 			id=2674;
 			atlOffset=151.3082;
 		};
