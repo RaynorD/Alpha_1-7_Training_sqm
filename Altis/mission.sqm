@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14634.846,27.884037,16770.908};
-		dir[]={-0.45041806,-0.74940014,0.48532566};
-		up[]={-0.50978291,0.66211677,0.54929137};
-		aside[]={0.73298174,-7.5192656e-007,0.68026239};
+		pos[]={14764.465,63.972164,16827.994};
+		dir[]={-0.8058998,-0.34532499,-0.48103282};
+		up[]={-0.29654402,0.93847573,-0.17700434};
+		aside[]={-0.51256579,-5.903421e-007,0.8587243};
 	};
 };
 binarizationWanted=0;
@@ -516,7 +516,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A/1-7 Training Grounds (v10)";
+		briefingName="A/1-7 Training Grounds";
 		overviewText="Full feature map created for Alpha Company.";
 		resistanceWest=0;
 		startWeather=0.29999998;
@@ -21416,7 +21416,7 @@ class Mission
 			};
 			id=1937;
 			type="Sign_Sphere100cm_F";
-			atlOffset=6.6862812;
+			atlOffset=2.6653442;
 		};
 		class Item498
 		{
@@ -21431,7 +21431,7 @@ class Mission
 			};
 			id=1938;
 			type="Sign_Sphere100cm_F";
-			atlOffset=7.4986115;
+			atlOffset=1.0948715;
 		};
 		class Item499
 		{
@@ -21446,7 +21446,7 @@ class Mission
 			};
 			id=1939;
 			type="Sign_Sphere100cm_F";
-			atlOffset=5.1643105;
+			atlOffset=4.879797;
 		};
 		class Item500
 		{
