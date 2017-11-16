@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3257;
+		nextID=3260;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11966.899,112.02714,2500.6223};
-		dir[]={0.36091608,-0.3727724,-0.85494787};
-		up[]={0.14501069,0.92788517,-0.34350649};
-		aside[]={-0.92133522,6.7381188e-007,-0.38894266};
+		pos[]={12307.825,359.23672,17757.957};
+		dir[]={0.4656913,-0.38003108,0.79920465};
+		up[]={0.19133253,0.92497063,0.32835937};
+		aside[]={0.86402786,-3.806781e-008,-0.50346327};
 	};
 };
 binarizationWanted=0;
@@ -523,7 +523,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=313;
+		items=316;
 		class Item0
 		{
 			dataType="Marker";
@@ -638,7 +638,7 @@ class Mission
 			text="Pad 3";
 			type="c_air";
 			colorName="ColorWEST";
-			angle=43.67268;
+			angle=43.672676;
 			id=29;
 		};
 		class Item10
@@ -689,11 +689,13 @@ class Mission
 		class Item14
 		{
 			dataType="Marker";
-			position[]={11360.477,23.422651,2553.7158};
+			position[]={11356.555,0,2554.738};
 			name="respawn_west";
+			text="Base (Command)";
 			type="Empty";
-			angle=352.45584;
+			angle=352.45596;
 			id=47;
+			atlOffset=-23.422821;
 		};
 		class Item15
 		{
@@ -18751,6 +18753,39 @@ class Mission
 			id=3252;
 			type="Windsock_01_F";
 			atlOffset=5.5147991;
+		};
+		class Item313
+		{
+			dataType="Marker";
+			position[]={11953.58,0,2313.5229};
+			name="respawn_west_rotary";
+			text="Base (Rotary)";
+			type="Empty";
+			angle=352.45596;
+			id=3257;
+			atlOffset=-25.228867;
+		};
+		class Item314
+		{
+			dataType="Marker";
+			position[]={12033.882,0,2294.479};
+			name="respawn_west_ground";
+			text="Base (Ground)";
+			type="Empty";
+			angle=352.45596;
+			id=3258;
+			atlOffset=-25.932919;
+		};
+		class Item315
+		{
+			dataType="Marker";
+			position[]={12099.063,0,1642.114};
+			name="respawn_west_fixed";
+			text="Base (Fixed)";
+			type="Empty";
+			angle=352.45596;
+			id=3259;
+			atlOffset=-32.884727;
 		};
 	};
 	class Connections
