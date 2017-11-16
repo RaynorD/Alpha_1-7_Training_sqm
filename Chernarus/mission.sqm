@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2675;
+		nextID=2679;
 	};
 	class MarkerIDProvider
 	{
@@ -66,7 +66,6 @@ addons[]=
 	"A3_Props_F_Orange_Humanitarian_Supplies",
 	"A3_Soft_F_Gamma_Truck_01",
 	"ace_realisticnames",
-	"A3_Characters_F_Jets",
 	"A3_Boat_F_Jets_Carrier_01",
 	"A3_Structures_F_Exp_Military_Fortifications",
 	"mil",
@@ -86,7 +85,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -297,58 +296,51 @@ class AddonsMetaData
 		};
 		class Item30
 		{
-			className="A3_Characters_F_Jets";
-			name="Arma 3 Jets - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item31
-		{
 			className="A3_Boat_F_Jets";
 			name="Arma 3 Jets - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item32
+		class Item31
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item32
 		{
 			className="mil";
 			name="mil";
 		};
-		class Item34
+		class Item33
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item35
+		class Item34
 		{
 			className="rhsusf_vehicles";
 			name="rhsusf_vehicles";
 		};
-		class Item36
+		class Item35
 		{
 			className="A3_Structures_F_Orange";
 			name="Arma 3 Orange - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item37
+		class Item36
 		{
 			className="plp_containers";
 			name="plp_containers";
 		};
-		class Item38
+		class Item37
 		{
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item39
+		class Item38
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
@@ -655,7 +647,7 @@ class Mission
 			name="respawn_west";
 			text="Aviation";
 			type="Empty";
-			angle=352.45596;
+			angle=352.45593;
 			id=47;
 			atlOffset=-339;
 		};
@@ -12079,8 +12071,8 @@ class Mission
 						description="Mission Controller 1";
 						isPlayable=1;
 					};
-					id=2669;
-					type="B_Fighter_Pilot_F";
+					id=2675;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12193,8 +12185,8 @@ class Mission
 						description="Mission Controller 2";
 						isPlayable=1;
 					};
-					id=2670;
-					type="B_Fighter_Pilot_F";
+					id=2676;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12307,8 +12299,8 @@ class Mission
 						description="Mission Controller 3";
 						isPlayable=1;
 					};
-					id=2671;
-					type="B_Fighter_Pilot_F";
+					id=2677;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12421,8 +12413,8 @@ class Mission
 						description="Mission Controller 4";
 						isPlayable=1;
 					};
-					id=2672;
-					type="B_Fighter_Pilot_F";
+					id=2678;
+					type="B_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
