@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2673;
+		nextID=2675;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15525.489,221.99617,73.508392};
-		dir[]={-0.76414204,-0.35909149,0.5358575};
-		up[]={-0.29400545,0.93330193,0.20617259};
-		aside[]={0.57415169,-2.4214387e-008,0.81875008};
+		pos[]={15095.327,100.70515,229.96457};
+		dir[]={0.34743872,-0.7536906,0.55788708};
+		up[]={0.39843166,0.65722895,0.63976693};
+		aside[]={0.84884602,-6.0535967e-009,-0.52864116};
 	};
 };
 binarizationWanted=0;
@@ -471,7 +471,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=280;
+		items=282;
 		class Item0
 		{
 			dataType="Marker";
@@ -651,11 +651,13 @@ class Mission
 		class Item15
 		{
 			dataType="Marker";
-			position[]={4803.5669,339,10271.987};
+			position[]={4803.1338,0,10271.879};
 			name="respawn_west";
+			text="Aviation";
 			type="Empty";
-			angle=352.45584;
+			angle=352.45596;
 			id=47;
+			atlOffset=-339;
 		};
 		class Item16
 		{
@@ -15658,6 +15660,28 @@ class Mission
 			};
 			id=2668;
 			type="Land_PortableLight_double_F";
+		};
+		class Item280
+		{
+			dataType="Marker";
+			position[]={4510.73,0,10816.95};
+			name="respawn_west_ground";
+			text="Ground";
+			type="Empty";
+			angle=352.45596;
+			id=2673;
+			atlOffset=-339;
+		};
+		class Item281
+		{
+			dataType="Marker";
+			position[]={15119.832,0,285.08899};
+			name="respawn_west_carrier";
+			text="Carrier";
+			type="Empty";
+			angle=352.45596;
+			id=2674;
+			atlOffset=151.3082;
 		};
 	};
 	class Connections
