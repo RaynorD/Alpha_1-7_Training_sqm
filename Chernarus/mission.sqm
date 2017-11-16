@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4775.9565,357.54285,10270.402};
-		dir[]={0.67367703,-0.73063177,0.11212749};
-		up[]={0.72080058,0.68268186,0.11997157};
-		aside[]={0.16419938,1.3282988e-006,-0.98653984};
+		pos[]={15525.489,221.99617,73.508392};
+		dir[]={-0.76414204,-0.35909149,0.5358575};
+		up[]={-0.29400545,0.93330193,0.20617259};
+		aside[]={0.57415169,-2.4214387e-008,0.81875008};
 	};
 };
 binarizationWanted=0;
@@ -12954,8 +12954,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={16714.451,0.41783655,9084.9453};
-				angles[]={0,6.2234273,0};
+				position[]={15080.847,-1.6170654,262.68506};
+				angles[]={0,0.96654731,0};
 			};
 			side="Empty";
 			class Attributes
@@ -12963,17 +12963,18 @@ class Mission
 			};
 			id=2463;
 			type="Land_Carrier_01_base_F";
-			atlOffset=166.69156;
+			atlOffset=149.39897;
 		};
 		class Item154
 		{
 			dataType="Marker";
-			position[]={16719.088,0,9112.126};
+			position[]={15106.498,-1.6259766,272.79797};
 			name="marker_98";
 			text="USS Freedom";
 			type="b_naval";
+			angle=58.802982;
 			id=2464;
-			atlOffset=166.88315;
+			atlOffset=149.59056;
 		};
 		class Item155
 		{
