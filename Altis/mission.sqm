@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15256.963,25.353622,13529.612};
-		dir[]={0.18517204,-0.15737681,0.97003198};
-		up[]={0.029510599,0.98753601,0.15459205};
-		aside[]={0.98227024,-1.4627585e-007,-0.18750842};
+		pos[]={14299.728,24.836609,16322.903};
+		dir[]={0.98029727,-0.1927961,-0.044476554};
+		up[]={0.19267841,0.98122209,-0.0087429425};
+		aside[]={-0.045327034,-6.2141044e-007,-0.99903393};
 	};
 };
 binarizationWanted=0;
@@ -30647,125 +30647,120 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15135.78,17.91,17247.168};
+				position[]={15135.78,18.654913,17247.168};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2724;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 		class Item559
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15112.469,17.91,17222.727};
+				position[]={15112.469,18.654913,17222.727};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2725;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 		class Item560
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15197.349,17.940001,17291.482};
+				position[]={15197.349,18.684914,17291.482};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2726;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 		class Item561
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15179.093,17.892677,17310.959};
-				angles[]={0.0013372133,0,0.0066682254};
+				position[]={15179.093,18.63759,17310.959};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2727;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 		class Item562
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14396.572,19.157059,16322.457};
-				angles[]={0.02666023,0,0.0080009829};
+				position[]={14396.572,19.901972,16322.457};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2728;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 		class Item563
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14333.499,18.898214,16335.233};
-				angles[]={0.013332055,0,6.2645216};
+				position[]={14333.499,19.643127,16335.233};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2729;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 		class Item564
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14271.139,19.337736,16309.417};
-				angles[]={0.0013372133,0,6.2805333};
+				position[]={14271.139,20.082649,16309.417};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2730;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 		class Item565
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14247.465,19.382021,16296.74};
-				angles[]={0.0026520467,0,0};
+				position[]={14247.465,20.126934,16296.74};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2731;
 			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.7449131;
 		};
 	};
 };
