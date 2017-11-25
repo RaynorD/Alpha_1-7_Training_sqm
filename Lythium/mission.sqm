@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=677;
+	toggles=673;
 	class ItemIDProvider
 	{
-		nextID=3415;
+		nextID=3425;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12033.774,45.045876,2284.6133};
-		dir[]={0.02462584,-0.87155294,0.48970723};
-		up[]={0.043772373,0.49029589,0.87045544};
-		aside[]={0.99875051,3.2305252e-008,-0.05022366};
+		pos[]={11578.858,74.523735,2403.657};
+		dir[]={0.83411556,-0.34878993,-0.42742831};
+		up[]={0.31045896,0.93717694,-0.15908989};
+		aside[]={-0.45606691,-4.4854823e-007,-0.88999718};
 	};
 };
 binarizationWanted=0;
@@ -86,13 +86,14 @@ addons[]=
 	"CUP_CA_Config",
 	"plp_rmairport",
 	"A3_Structures_F_Civ_Lamps",
-	"A3_Structures_F_Heli_Ind_Airport"
+	"A3_Structures_F_Heli_Ind_Airport",
+	"A3_Structures_F_Orange_VR_Helpers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=47;
+		items=48;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -402,6 +403,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item47
+		{
+			className="A3_Structures_F_Orange";
+			name="Arma 3 Orange - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=12084584;
@@ -516,7 +524,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=317;
+		items=325;
 		class Item0
 		{
 			dataType="Marker";
@@ -863,8 +871,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11945.29,25.176975,2356.9771};
-				angles[]={0,1.5854046,0.016580628};
+				position[]={11945.29,25.217976,2356.9771};
+				angles[]={0,1.5854046,0.016587386};
 			};
 			side="Empty";
 			flags=4;
@@ -875,7 +883,6 @@ class Mission
 			};
 			id=102;
 			type="Land_InfoStand_V1_F";
-			atlOffset=-0.041000366;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1835,7 +1842,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12017.562,33.10902,1718.1401};
-				angles[]={0,4.0660758,0};
+				angles[]={0,5.1132736,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1935,7 +1942,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12064.646,33.437283,1658.0388};
-				angles[]={0.0013788101,3.9582672,0};
+				angles[]={0.001381068,5.2672644,0};
 			};
 			side="Empty";
 			flags=4;
@@ -19346,6 +19353,132 @@ class Mission
 			};
 			id=3413;
 			atlOffset=-7.0571899e-005;
+		};
+		class Item317
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12011.854,26.037893,2250.1589};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3415;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item318
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12011.735,25.879368,2277.3228};
+				angles[]={0.0020132356,0,6.2815661};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3418;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item319
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11945.286,24.642467,2356.9709};
+				angles[]={0,0,0.016587386};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3419;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item320
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11945.975,24.482172,2387.0017};
+				angles[]={0.017827518,0,0.0009134906};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3420;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item321
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11942.992,24.188963,2402.9868};
+				angles[]={0.014294341,0,0.015777014};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3421;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item322
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11929.004,24.01301,2409.9858};
+				angles[]={0.0047591813,0,0.00048828125};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3422;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item323
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12017.573,32.533661,1718.1425};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3423;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item324
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12064.654,32.872932,1658.0281};
+				angles[]={0.001381068,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3424;
+			type="Sign_Sphere25cm_Geometry_F";
 		};
 	};
 	class Connections

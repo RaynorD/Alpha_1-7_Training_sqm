@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2718;
+		nextID=2732;
 	};
 	class MarkerIDProvider
 	{
@@ -98,13 +98,14 @@ addons[]=
 	"ace_parachute",
 	"A3_Boat_F_Jets_Carrier_01",
 	"ace_advanced_throwing",
-	"ace_advanced_ballistics"
+	"ace_advanced_ballistics",
+	"A3_Structures_F_Orange_VR_Helpers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=46;
+		items=47;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -423,6 +424,13 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
+		class Item46
+		{
+			className="A3_Structures_F_Orange";
+			name="Arma 3 Orange - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=12084584;
@@ -539,7 +547,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=558;
+		items=566;
 		class Item0
 		{
 			dataType="Marker";
@@ -3878,14 +3886,15 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15135.768,18.485363,17247.164};
-				angles[]={0,4.4364595,0};
+				angles[]={0,4.4364524,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_11, ""list_spawn_fixedWing""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];";
+				init="call{_s = [this, spawn_11, ""list_spawn_fixedWing""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				name="sign1";
 			};
 			id=675;
 			type="Land_InfoStand_V1_F";
@@ -21709,7 +21718,6 @@ class Mission
 						init="call{this setGroupId [""Pegasus 6""];}";
 						name="Co_Cmdr";
 						description="Commander A/1-7 ";
-						isPlayer=1;
 						isPlayable=1;
 					};
 					id=2211;
@@ -23686,7 +23694,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={15171.81,17.911438,17261.273};
-						angles[]={0,2.3573067,0};
+						angles[]={0,2.3573115,0};
 					};
 					side="West";
 					flags=6;
@@ -23696,6 +23704,7 @@ class Mission
 						rank="LIEUTENANT";
 						name="Plt2_Cmdr";
 						description="Platoon Leader 2/A/1-7";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=2256;
@@ -30517,7 +30526,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15259.146,24.420776,13538.691};
-				angles[]={-0,2.3595455,0};
+				angles[]={0,2.3595455,0};
 			};
 			side="Empty";
 			flags=4;
@@ -30529,6 +30538,7 @@ class Mission
 			};
 			id=2716;
 			type="B_supplyCrate_F";
+			atlOffset=0.018230438;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -30597,7 +30607,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15259.967,27.505159,13537.711};
-				angles[]={-0,2.347014,0};
+				angles[]={0,2.347014,0};
 			};
 			side="Empty";
 			flags=4;
@@ -30631,6 +30641,131 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item558
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15135.78,17.91,17247.168};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2724;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item559
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15112.469,17.91,17222.727};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2725;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item560
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15197.349,17.940001,17291.482};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2726;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item561
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15179.093,17.892677,17310.959};
+				angles[]={0.0013372133,0,0.0066682254};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2727;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item562
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14396.572,19.157059,16322.457};
+				angles[]={0.02666023,0,0.0080009829};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2728;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item563
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14333.499,18.898214,16335.233};
+				angles[]={0.013332055,0,6.2645216};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2729;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item564
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14271.139,19.337736,16309.417};
+				angles[]={0.0013372133,0,6.2805333};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2730;
+			type="Sign_Sphere25cm_Geometry_F";
+		};
+		class Item565
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14247.465,19.382021,16296.74};
+				angles[]={0.0026520467,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2731;
+			type="Sign_Sphere25cm_Geometry_F";
 		};
 	};
 };
