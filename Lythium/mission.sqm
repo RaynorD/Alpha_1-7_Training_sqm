@@ -2143,7 +2143,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[_object,true]] spawn BIS_fnc_arsenal;}";
+				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
 				disableSimulation=1;
 			};
 			id=687;
@@ -3123,7 +3123,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[_object,true]] spawn BIS_fnc_arsenal;}";
+				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
 				disableSimulation=1;
 			};
 			id=859;
@@ -3246,7 +3246,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[_object,true]] spawn BIS_fnc_arsenal;}";
+				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
 				disableSimulation=1;
 			};
 			id=861;
@@ -4315,7 +4315,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[_object,true]] spawn BIS_fnc_arsenal;}";
+				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
 				disableSimulation=1;
 			};
 			id=1181;
