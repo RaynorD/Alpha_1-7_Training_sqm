@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14299.728,24.836609,16322.903};
-		dir[]={0.98029727,-0.1927961,-0.044476554};
-		up[]={0.19267841,0.98122209,-0.0087429425};
-		aside[]={-0.045327034,-6.2141044e-007,-0.99903393};
+		pos[]={14286.814,24.836609,16322.996};
+		dir[]={-0.81231332,-0.55285811,0.18608697};
+		up[]={-0.53893983,0.83324659,0.12346298};
+		aside[]={0.22331324,-3.8417056e-007,0.97481114};
 	};
 };
 binarizationWanted=0;
@@ -4136,7 +4136,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=687;
@@ -5345,7 +5345,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=859;
@@ -5467,7 +5467,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=861;
@@ -7527,7 +7527,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=1181;
@@ -21425,7 +21425,7 @@ class Mission
 			};
 			id=1937;
 			type="Sign_Sphere100cm_F";
-			atlOffset=2.6653442;
+			atlOffset=6.6862812;
 		};
 		class Item498
 		{
@@ -21440,7 +21440,7 @@ class Mission
 			};
 			id=1938;
 			type="Sign_Sphere100cm_F";
-			atlOffset=1.0948715;
+			atlOffset=7.4986115;
 		};
 		class Item499
 		{
@@ -21455,7 +21455,7 @@ class Mission
 			};
 			id=1939;
 			type="Sign_Sphere100cm_F";
-			atlOffset=4.879797;
+			atlOffset=5.1643105;
 		};
 		class Item500
 		{
@@ -30533,7 +30533,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=2716;

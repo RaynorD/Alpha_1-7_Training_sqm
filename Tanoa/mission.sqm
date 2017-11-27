@@ -1856,7 +1856,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=81;
@@ -2816,7 +2816,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=101;
@@ -2938,7 +2938,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=103;
@@ -4011,7 +4011,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=112;

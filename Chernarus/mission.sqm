@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4692.145,341.09113,10309.659};
-		dir[]={-0.5176661,-0.29659089,0.80260962};
-		up[]={-0.16078535,0.95498222,0.2492871};
-		aside[]={0.84041256,-3.6752317e-007,0.54204851};
+		pos[]={4790.7715,344.4086,10282.7};
+		dir[]={0.48523098,-0.62220293,-0.61444652};
+		up[]={0.385625,0.78283346,-0.48831543};
+		aside[]={-0.78483975,-4.7101639e-007,-0.61979097};
 	};
 };
 binarizationWanted=0;
@@ -2827,7 +2827,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=861;
@@ -3786,7 +3786,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{[this,'full'] call cScripts_fnc_doStarterCrate; [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				init="this execVM 'crate.sqf'";
 				disableSimulation=1;
 			};
 			id=1181;
