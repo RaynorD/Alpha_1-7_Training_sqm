@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15181.998,36.637669,17235.109};
-		dir[]={-0.076773614,-0.59908372,0.79700559};
-		up[]={-0.057443053,0.80068505,0.59632754};
-		aside[]={0.99539936,-7.6310243e-008,0.095884077};
+		pos[]={15179.962,26.276094,17242.957};
+		dir[]={-0.030207865,-0.54100251,0.84049702};
+		up[]={-0.019432258,0.84101975,0.54066318};
+		aside[]={0.99937195,-5.9808372e-008,0.035917372};
 	};
 };
 binarizationWanted=0;
@@ -454,7 +454,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -495,7 +495,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -526,7 +526,6 @@ class Mission
 	{
 		briefingName="A/1-7 Training Grounds (v11)";
 		overviewText="Full feature map created for Alpha Company.";
-		resistanceWest=0;
 		startWeather=0.29999998;
 		startFog=0.11679435;
 		startWind=0;
