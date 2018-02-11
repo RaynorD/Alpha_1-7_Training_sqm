@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2732;
+		nextID=2765;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15179.962,26.276094,17242.957};
-		dir[]={-0.030207865,-0.54100251,0.84049702};
-		up[]={-0.019432258,0.84101975,0.54066318};
-		aside[]={0.99937195,-5.9808372e-008,0.035917372};
+		pos[]={15154.296,66.969589,17136.799};
+		dir[]={-0.12818702,-0.488152,0.86330175};
+		up[]={-0.07169728,0.8727591,0.48286131};
+		aside[]={0.98916304,-6.3679181e-008,0.14687528};
 	};
 };
 binarizationWanted=0;
@@ -454,10 +454,29 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
+		{
+			property="ReviveDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=10;
+				};
+			};
+		};
+		class Attribute1
 		{
 			property="RespawnTemplates";
 			expression="true";
@@ -493,9 +512,28 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=1;
+		class Attribute2
+		{
+			property="ReviveMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		nAttributes=3;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -524,7 +562,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A/1-7 Training Grounds (v11)";
+		briefingName="A/1-7 Training Grounds (v12)";
 		overviewText="Full feature map created for Alpha Company.";
 		startWeather=0.29999998;
 		startFog=0.11679435;
@@ -546,7 +584,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=566;
+		items=572;
 		class Item0
 		{
 			dataType="Marker";
@@ -1550,7 +1588,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_4, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_4, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=102;
 			type="Land_InfoStand_V1_F";
@@ -1632,7 +1670,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_3, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_3, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=104;
 			type="Land_InfoStand_V1_F";
@@ -1713,7 +1751,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_2, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_2, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=106;
 			type="Land_InfoStand_V1_F";
@@ -1795,7 +1833,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_1, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_1, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=108;
 			type="Land_InfoStand_V1_F";
@@ -2159,7 +2197,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_5, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_5, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=634;
 			type="Land_InfoStand_V1_F";
@@ -2503,14 +2541,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14172.812,78.023613,21245.277};
-				angles[]={6.2805333,5.176652,0.0026520467};
+				angles[]={6.2805324,5.1766467,0.0026529003};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_8, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_8, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=653;
 			type="Land_InfoStand_V1_F";
@@ -3813,7 +3851,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_10, ""list_spawn_fixedWing""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];";
+				init="call{_s = [this, spawn_10, [""Plane""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
 			};
 			id=673;
 			type="Land_InfoStand_V1_F";
@@ -3894,7 +3932,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{_s = [this, spawn_11, ""list_spawn_fixedWing""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				init="call{_s = [this, spawn_11, [""Plane""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
 				name="sign1";
 			};
 			id=675;
@@ -4070,14 +4108,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={20239.59,119.05534,12967.227};
-				angles[]={6.2791886,2.8541906,6.272521};
+				angles[]={6.2791882,2.8541894,6.2725215};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_22, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_22, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=684;
 			type="Land_InfoStand_V1_F";
@@ -4262,19 +4300,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3810.6602,189.94409,21501.701};
-				angles[]={0.0026744273,1.4504873,0.051953323};
+				position[]={3810.6602,189.94362,21501.701};
+				angles[]={0.0026703537,1.4504908,0.051958453};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="_s = [this, spawn_23, ""list_spawn_rotary""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];";
+				init="call{_s = [this, spawn_23, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_rotary.paa""];}";
 			};
 			id=692;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.0014801025;
+			atlOffset=0.0010070801;
 		};
 		class Item178
 		{
@@ -6103,7 +6141,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
 						};
 					};
 				};
@@ -21388,7 +21426,7 @@ class Mission
 			};
 			id=1937;
 			type="Sign_Sphere100cm_F";
-			atlOffset=6.6862812;
+			atlOffset=2.6653442;
 		};
 		class Item498
 		{
@@ -21403,7 +21441,7 @@ class Mission
 			};
 			id=1938;
 			type="Sign_Sphere100cm_F";
-			atlOffset=7.4986115;
+			atlOffset=1.0948715;
 		};
 		class Item499
 		{
@@ -21418,7 +21456,7 @@ class Mission
 			};
 			id=1939;
 			type="Sign_Sphere100cm_F";
-			atlOffset=5.1643105;
+			atlOffset=4.879797;
 		};
 		class Item500
 		{
@@ -26155,7 +26193,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=3;
 						};
 					};
 				};
@@ -26264,7 +26302,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=3;
 						};
 					};
 				};
@@ -26373,7 +26411,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=3;
 						};
 					};
 				};
@@ -26482,7 +26520,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=3;
 						};
 					};
 				};
@@ -30648,6 +30686,148 @@ class Mission
 			id=2731;
 			type="Sign_Sphere25cm_Geometry_F";
 			atlOffset=0.7449131;
+		};
+		class Item566
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15267.26,24.104538,13609.315};
+				angles[]={0,0.2030516,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{_s = [this, spawn_12, ""list_spawn_carrier""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				name="sign1_1";
+			};
+			id=2759;
+			type="Land_InfoStand_V1_F";
+			atlOffset=0.012411118;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item567
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={15275.225,23.528353,13632.379};
+				angles[]={0,4.9421606,0};
+			};
+			name="spawn_12";
+			id=2760;
+			type="Logic";
+		};
+		class Item568
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15267.257,24.275528,13609.302};
+				angles[]={0,2.049787,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=2761;
+			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.74717522;
+		};
+		class Item569
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15205.361,24.104874,13538.643};
+				angles[]={0,0.2030516,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{_s = [this, spawn_13, ""list_spawn_carrier""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				name="sign1_2";
+			};
+			id=2762;
+			type="Land_InfoStand_V1_F";
+			atlOffset=0.0011711121;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item570
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={15200.37,23.528355,13557.736};
+				angles[]={0,1.7563004,0};
+			};
+			name="spawn_13";
+			id=2763;
+			type="Logic";
+		};
+		class Item571
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15205.359,24.27553,13538.629};
+				angles[]={0,2.049787,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=2764;
+			type="Sign_Sphere25cm_Geometry_F";
+			atlOffset=0.74717522;
 		};
 	};
 };
