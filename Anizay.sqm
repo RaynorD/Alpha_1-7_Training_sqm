@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8565.4971,175.98378,6652.1436};
-		dir[]={-0.50360388,-0.46103477,0.73065996};
-		up[]={-0.26164719,0.88737839,0.37961397};
-		aside[]={0.82338434,9.9418685e-008,0.56751317};
+		pos[]={8734.3379,273.78195,6694.5889};
+		dir[]={-0.78131163,-0.55331206,0.28884846};
+		up[]={-0.51899195,0.83296949,0.19186974};
+		aside[]={0.34676477,8.3702616e-008,0.93796951};
 	};
 };
 binarizationWanted=0;
@@ -245,7 +245,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=120;
+		items=118;
 		class Item0
 		{
 			dataType="Marker";
@@ -16090,52 +16090,47 @@ class Mission
 		class Item101
 		{
 			dataType="Marker";
-			position[]={8534.127,110.47998,7183.23};
+			position[]={8551.6523,110.47998,7186.3223};
 			name="marker_9";
 			text="Alpha";
 			type="mil_triangle";
+			angle=91.315987;
 			id=269;
 			atlOffset=-1.0600204;
 		};
 		class Item102
 		{
 			dataType="Marker";
-			position[]={8532.208,110.292,7104.1069};
+			position[]={8551.1924,110.29199,7103.5254};
 			name="marker_10";
 			text="Bravo";
 			type="mil_triangle";
+			angle=92.311455;
 			id=270;
-			atlOffset=-1.2480011;
+			atlOffset=-1.2480087;
 		};
 		class Item103
 		{
 			dataType="Marker";
-			position[]={8533.3574,109.747,6955.5308};
+			position[]={8551.334,109.74707,6947.8955};
 			name="marker_11";
 			text="Charlie";
 			type="mil_triangle";
+			angle=94.578087;
 			id=271;
-			atlOffset=-1.7929993;
+			atlOffset=-1.7929306;
 		};
 		class Item104
 		{
 			dataType="Marker";
-			position[]={8539.7637,111.54,6824.208};
+			position[]={8552.1348,111.54,6800.1538};
 			name="marker_13";
 			text="Delta";
 			type="mil_triangle";
+			angle=92.833298;
 			id=273;
 		};
 		class Item105
-		{
-			dataType="Marker";
-			position[]={8545.4023,111.54,6694.6084};
-			name="marker_14";
-			text="Echo";
-			type="mil_triangle";
-			id=274;
-		};
-		class Item106
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16152,7 +16147,7 @@ class Mission
 			id=275;
 			type="ACE_medicalSupplyCrate_advanced";
 		};
-		class Item107
+		class Item106
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16169,7 +16164,7 @@ class Mission
 			id=276;
 			type="ACE_medicalSupplyCrate_advanced";
 		};
-		class Item108
+		class Item107
 		{
 			dataType="Marker";
 			position[]={8555.3242,112.38575,6971.2925};
@@ -16185,7 +16180,7 @@ class Mission
 			id=277;
 			atlOffset=0.8457489;
 		};
-		class Item109
+		class Item108
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -16241,7 +16236,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item110
+		class Item109
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16257,7 +16252,7 @@ class Mission
 			id=279;
 			type="Land_HelipadSquare_F";
 		};
-		class Item111
+		class Item110
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16273,7 +16268,7 @@ class Mission
 			id=280;
 			type="Land_HelipadSquare_F";
 		};
-		class Item112
+		class Item111
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -16328,7 +16323,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item113
+		class Item112
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16344,7 +16339,7 @@ class Mission
 			id=282;
 			type="Land_HelipadSquare_F";
 		};
-		class Item114
+		class Item113
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16360,16 +16355,7 @@ class Mission
 			id=283;
 			type="Land_HelipadSquare_F";
 		};
-		class Item115
-		{
-			dataType="Marker";
-			position[]={8549.6611,111.54,6578.73};
-			name="marker_16";
-			text="Foxtrot";
-			type="mil_triangle";
-			id=284;
-		};
-		class Item116
+		class Item114
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16410,7 +16396,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item117
+		class Item115
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16450,7 +16436,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item118
+		class Item116
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16490,7 +16476,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item119
+		class Item117
 		{
 			dataType="Object";
 			class PositionInfo
