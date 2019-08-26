@@ -16318,18 +16318,19 @@ class Mission
 			text="33";
 			type="mil_arrow2";
 			colorName="ColorYellow";
-			angle=329.65692;
+			angle=329.65689;
 			id=268;
 			atlOffset=-0.00018310547;
 		};
 		class Item109
 		{
 			dataType="Marker";
-			position[]={4230.459,339,10909.998};
+			position[]={4237.4771,339,10911.078};
 			name="marker_9";
 			text="Alpha";
 			type="mil_triangle";
 			colorName="ColorWEST";
+			angle=236.08905;
 			id=269;
 		};
 		class Item110
@@ -16421,6 +16422,7 @@ class Mission
 			text="Bravo";
 			type="mil_triangle";
 			colorName="ColorWEST";
+			angle=244.95761;
 			id=280;
 		};
 		class Item116
@@ -16431,6 +16433,7 @@ class Mission
 			text="Charlie";
 			type="mil_triangle";
 			colorName="ColorWEST";
+			angle=238.7731;
 			id=281;
 		};
 		class Item117
@@ -16441,6 +16444,7 @@ class Mission
 			text="Delta";
 			type="mil_triangle";
 			colorName="ColorWEST";
+			angle=240.62138;
 			id=282;
 		};
 		class Item118
@@ -16451,16 +16455,18 @@ class Mission
 			text="Delta";
 			type="mil_triangle";
 			colorName="ColorWEST";
+			angle=57.400551;
 			id=283;
 		};
 		class Item119
 		{
 			dataType="Marker";
-			position[]={4122.5166,339,10852.627};
+			position[]={4129.3799,339,10848.28};
 			name="marker_16";
 			text="Alpha";
 			type="mil_triangle";
 			colorName="ColorWEST";
+			angle=58.834244;
 			id=284;
 		};
 		class Item120

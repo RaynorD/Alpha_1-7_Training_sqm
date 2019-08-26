@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8545.4365,177.48262,6836.6396};
-		dir[]={-0.84587944,-0.53195113,0.04014485};
-		up[]={-0.53136939,0.84676433,0.025218297};
-		aside[]={0.047405802,2.3655593e-007,0.99891502};
+		pos[]={8565.4971,175.98378,6652.1436};
+		dir[]={-0.50360388,-0.46103477,0.73065996};
+		up[]={-0.26164719,0.88737839,0.37961397};
+		aside[]={0.82338434,9.9418685e-008,0.56751317};
 	};
 };
 binarizationWanted=0;
@@ -249,7 +249,7 @@ class Mission
 		class Item0
 		{
 			dataType="Marker";
-			position[]={8472.0879,111.54,6670.5054};
+			position[]={8473.3379,111.54,6664.6509};
 			name="respawn_west_helicopters";
 			text="Rotary Wing Spawn";
 			type="Empty";
@@ -807,12 +807,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={8525.5859,111.54,6817.9868};
+				position[]={8525.5859,121.62148,6817.9868};
 				angles[]={0,3.1689768,0};
 			};
 			name="respawn_trucks";
 			id=41;
 			type="ModuleRespawnVehicle_F";
+			atlOffset=10.081474;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1058,7 +1059,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8469.5928,111.54,6791.1221};
-			angle=1.6246424;
+			angle=1.6246423;
 			class Attributes
 			{
 				name="AirFailurePad";
@@ -1149,7 +1150,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8459.9238,111.93139,6992.4595};
-			angle=4.7140746;
+			angle=4.7140741;
 			class Attributes
 			{
 				condition="call{this and ((getPos (thisList select 0)) select 2 < 1);}";
@@ -1169,7 +1170,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8459.4717,111.54001,7072.353};
-			angle=4.7140746;
+			angle=4.7140741;
 			class Attributes
 			{
 				condition="call{this and ((getPos (thisList select 0)) select 2 < 1);}";
@@ -1189,7 +1190,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8459.5195,111.54,7152.4517};
-			angle=4.7140746;
+			angle=4.7140741;
 			class Attributes
 			{
 				condition="call{this and ((getPos (thisList select 0)) select 2 < 1);}";

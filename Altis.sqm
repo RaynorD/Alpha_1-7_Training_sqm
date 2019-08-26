@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15236.842,97.848541,17212.893};
-		dir[]={-0.79227638,-0.55199403,0.26023215};
-		up[]={-0.52445805,0.83383501,0.17226329};
-		aside[]={0.31207579,-1.6385457e-007,0.95012301};
+		pos[]={22981.734,57.215294,18788.508};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -416,7 +416,7 @@ class Mission
 		class Item0
 		{
 			dataType="Marker";
-			position[]={14243.687,19.954458,16245.808};
+			position[]={14256.91,19.886564,16247.082};
 			name="respawn_west_helicopters";
 			text="Rotary Wing Spawn";
 			type="Empty";
@@ -16618,7 +16618,7 @@ class Mission
 			text="22R";
 			type="mil_arrow2";
 			colorName="ColorYellow";
-			angle=223.52655;
+			angle=223.52654;
 			id=297;
 		};
 		class Item115
@@ -16658,7 +16658,7 @@ class Mission
 			name="marker_12";
 			text="Apron 1";
 			type="mil_triangle";
-			angle=313.51514;
+			angle=313.51511;
 			id=301;
 		};
 		class Item119
@@ -18745,13 +18745,12 @@ class Mission
 		class Item223
 		{
 			dataType="Marker";
-			position[]={3675.5374,11.280208,13259.453};
+			position[]={3674.5349,11.237047,13259.874};
 			name="respawn_west_kavala";
 			text="Kavala Castle Trail";
 			type="Empty";
 			angle=346.80383;
 			id=460;
-			atlOffset=3.8146973e-006;
 		};
 		class Item224
 		{
@@ -19222,13 +19221,12 @@ class Mission
 		class Item258
 		{
 			dataType="Marker";
-			position[]={22982.805,3.9489999,18833.508};
-			name="respawn_west_Saltflats";
-			text="Heavy lift salt flats";
+			position[]={22992.127,3.67167,18835.186};
+			name="respawn_west_heavyLift";
+			text="Heavy  Lift Spawn";
 			type="Empty";
-			angle=162.93692;
+			angle=162.93698;
 			id=498;
-			atlOffset=-0.00045585632;
 		};
 		class Item259
 		{
@@ -20432,13 +20430,12 @@ class Mission
 		class Item316
 		{
 			dataType="Marker";
-			position[]={22984.688,4.427,18847.701};
+			position[]={23051.939,3.1900001,18794.402};
 			name="marker_20";
 			text="Heavy lifting area";
 			type="mil_join";
 			colorName="ColorWEST";
 			id=556;
-			atlOffset=-0.00032901764;
 		};
 		class Item317
 		{
