@@ -8,14 +8,14 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=418;
+		nextID=419;
 	};
 	class Camera
 	{
-		pos[]={5746.2847,25.19371,4516.9966};
-		dir[]={-0.72981161,-0.38335067,-0.56606102};
-		up[]={-0.30291608,0.92360306,-0.2349499};
-		aside[]={-0.61288369,9.755604e-008,0.79017836};
+		pos[]={6892.9824,12.586595,7304.7427};
+		dir[]={-0.97285074,-0.21811438,-0.077819295};
+		up[]={-0.21743922,0.97591645,-0.017393261};
+		aside[]={-0.079737216,-3.9290171e-007,0.99684846};
 	};
 };
 binarizationWanted=0;
@@ -1764,7 +1764,7 @@ class Mission
 			name="respawn_west_largehangar";
 			text="Large Hangar Spawn";
 			type="Empty";
-			angle=161.01599;
+			angle=161.01598;
 			id=63;
 			atlOffset=-8.3140001;
 		};
@@ -1790,10 +1790,33 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{_s = [this, spawn_1, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				init="call{_s = [this, spawn_1, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=65;
 			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\spawn_mixed.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item65
 		{
@@ -1807,10 +1830,33 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{_s = [this, spawn_2, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				init="call{_s = [this, spawn_2, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=66;
 			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\spawn_mixed.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item66
 		{
@@ -17540,10 +17586,33 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{_s = [this, spawn_7, [""Plane""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				init="call{_s = [this, spawn_7, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=363;
 			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\spawn_mixed.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item154
 		{
@@ -17585,10 +17654,33 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{_s = [this, spawn_8, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				init="call{_s = [this, spawn_8, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=368;
 			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\spawn_mixed.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item157
 		{
@@ -17642,10 +17734,33 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{_s = [this, spawn_9, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				init="call{_s = [this, spawn_9, ""list_spawn_combined_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=373;
 			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\spawn_mixed.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item161
 		{
@@ -17902,8 +18017,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6929.728,2.6600001,7469.5347};
-				angles[]={0,1.3989863,0};
+				position[]={6929.728,2.6600001,7469.5352};
+				angles[]={0,1.3989861,0};
 			};
 			name="spawn_13";
 			id=402;
@@ -17921,10 +18036,33 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{_s = [this, spawn_13, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf""; this setObjectTexture [0, ""images\spawn_fixedWing.paa""];}";
+				init="call{_s = [this, spawn_13, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=403;
 			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\spawn_mixed.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item176
 		{
