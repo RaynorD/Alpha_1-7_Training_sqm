@@ -8,14 +8,14 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=455;
+		nextID=469;
 	};
 	class Camera
 	{
-		pos[]={4268.0415,94.340652,10468.996};
-		dir[]={0.11502223,-0.52668321,-0.8423686};
-		up[]={0.071259007,0.85004693,-0.52187985};
-		aside[]={-0.99090451,5.7404395e-007,-0.13530435};
+		pos[]={4186.7148,154.72365,10574.252};
+		dir[]={0.48594067,-0.52508569,-0.69884676};
+		up[]={0.29979181,0.85103339,-0.43114501};
+		aside[]={-0.82110757,9.4994903e-007,-0.57095504};
 	};
 };
 binarizationWanted=0;
@@ -260,7 +260,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=141;
+		items=144;
 		class Item0
 		{
 			dataType="Logic";
@@ -17134,10 +17134,10 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3969.9602,68.160004,10139.576};
-				angles[]={0,3.9127898,0};
+				position[]={3969.96,68.160004,10139.576};
+				angles[]={0,3.9127839,0};
 			};
-			areaSize[]={3.8172154,0,4.9469142};
+			areaSize[]={3.8169999,0,4.947};
 			areaIsRectangle=1;
 			flags=1;
 			id=383;
@@ -17580,6 +17580,55 @@ class Mission
 			name="spawn_1";
 			id=425;
 			type="Logic";
+		};
+		class Item141
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4317.0469,68.237946,10456.67};
+				angles[]={6.2816033,0,0.0015822123};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=466;
+			type="ClutterCutter_small_2_EP1";
+		};
+		class Item142
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4327.2744,68.218155,10465.159};
+				angles[]={-0,0,6.2735925};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=467;
+			type="ClutterCutter_small_2_EP1";
+			atlOffset=-7.6293945e-006;
+		};
+		class Item143
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4302.5181,68.233887,10452.516};
+				angles[]={0.0015822123,0,6.278389};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=468;
+			type="ClutterCutter_small_2_EP1";
 		};
 	};
 	class Connections
