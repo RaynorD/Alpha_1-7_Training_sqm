@@ -7,6 +7,8 @@ assignees: RaynorD
 
 ---
 
+Description
+
 - [ ] Anizay
 - [ ] Altis
 - [ ] Chernarus
