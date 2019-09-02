@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8469.542,155.79643,6870.293};
-		dir[]={-0.48702115,-0.52901429,-0.69496924};
-		up[]={-0.30360091,0.8486076,-0.43323314};
-		aside[]={-0.81893921,3.8626604e-007,0.5738976};
+		pos[]={8479.5918,193.73209,6920.1289};
+		dir[]={-0.43021446,-0.58493418,-0.68762261};
+		up[]={-0.31025621,0.811068,-0.4958908};
+		aside[]={-0.84776765,3.0337833e-007,0.53041011};
 	};
 };
 binarizationWanted=0;
@@ -47,14 +47,13 @@ addons[]=
 	"A3_Structures_F_Heli_VR_Helpers",
 	"A3_Structures_F_Mil_Fortification",
 	"A3_Supplies_F_Exp_Ammoboxes",
-	"A3_Structures_F_Civ_Lamps",
-	"A3_Characters_F"
+	"A3_Structures_F_Civ_Lamps"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=24;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -217,13 +216,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 	};
 };
 randomSeed=14750611;
@@ -282,7 +274,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=177;
+		items=176;
 		class Item0
 		{
 			dataType="Marker";
@@ -2075,7 +2067,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this setgroupID [""PEGASUS-6""];}";
+						init="call{this setgroupID [""PEGASUS-6""]; this setVariable [""cScripts_Player_Unit"", ""PEGASUS-6""]; }";
 						description="Pegasus-6 (Air Controller) @AIR COMMAND AND CONTROL";
 						isPlayable=1;
 					};
@@ -2136,6 +2128,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""PEGASUS-5""]; }";
 						description="Pegasus-5 (Air Controller)";
 						isPlayable=1;
 					};
@@ -2189,13 +2182,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8405.5566,111.54144,6808.6362};
+						position[]={8405.5566,111.54144,6808.6357};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""PEGASUS-7""]; }";
 						description="Pegasus-7 (Air Controller)";
 						isPlayable=1;
 					};
@@ -2269,7 +2263,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this setgroupID [""INFIDEL-1""];}";
+						init="call{this setgroupID [""INFIDEL-1""]; this setVariable [""cScripts_Player_Unit"", ""INFIDEL-1""]; }";
 						description="Infidel-1 (Forward Air Controller)@Forward Air Controllers";
 						isPlayer=1;
 						isPlayable=1;
@@ -2331,6 +2325,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""INFIDEL-2""]; }";
 						description="Infidel-2 (Forward Air Controller) ";
 						isPlayable=1;
 					};
@@ -2391,6 +2386,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""INFIDEL-3""]; }";
 						description="Infidel-3 (Forward Air Controller)";
 						isPlayable=1;
 					};
@@ -9961,7 +9957,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8409.6758,111.54144,6811.6382};
+						position[]={8409.6758,111.54144,6811.6377};
 					};
 					side="West";
 					flags=5;
@@ -12910,6 +12906,7 @@ class Mission
 			};
 			id=504;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12965,6 +12962,7 @@ class Mission
 			};
 			id=514;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13020,6 +13018,7 @@ class Mission
 			};
 			id=516;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13075,6 +13074,7 @@ class Mission
 			};
 			id=518;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13130,6 +13130,7 @@ class Mission
 			};
 			id=520;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13185,7 +13186,7 @@ class Mission
 			};
 			id=522;
 			type="Land_InfoStand_V1_F";
-			atlOffset=7.6293945e-006;
+			atlOffset=1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13241,6 +13242,7 @@ class Mission
 			};
 			id=524;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13296,6 +13298,7 @@ class Mission
 			};
 			id=526;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13351,6 +13354,7 @@ class Mission
 			};
 			id=528;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15744,35 +15748,6 @@ class Mission
 			id=730;
 			type="Logic";
 			atlOffset=12;
-		};
-		class Item176
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8471.9746,111.96671,7060.3008};
-						angles[]={0,3.926991,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=732;
-					type="B_Soldier_A_F";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=731;
 		};
 	};
 	class Connections
