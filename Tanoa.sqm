@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7022.6768,38.540333,7371.5996};
-		dir[]={-0.5442096,-0.36912763,-0.75342506};
-		up[]={-0.21614203,0.92937726,-0.29923502};
-		aside[]={-0.81066841,-2.1420419e-007,0.58555627};
+		pos[]={6986.1787,67.729225,7495.3105};
+		dir[]={-0.51920283,-0.49042961,-0.69993949};
+		up[]={-0.2921834,0.87148041,-0.39389399};
+		aside[]={-0.80316126,-1.5483238e-007,0.59577072};
 	};
 };
 binarizationWanted=0;
@@ -594,7 +594,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{_s = [this, spawn_23, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=7;
 			type="Land_InfoStand_V1_F";
@@ -632,6 +631,7 @@ class Mission
 				angles[]={6.2751913,5.134584,0.018657569};
 			};
 			name="spawn_23";
+			init="call{[this, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			id=8;
 			type="Logic";
 		};
@@ -665,7 +665,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{_s = [this, spawn_24, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=10;
 			type="Land_InfoStand_V1_F";
@@ -703,6 +702,7 @@ class Mission
 				angles[]={0.061256282,5.1345849,6.2166181};
 			};
 			name="spawn_24";
+			init="call{[this, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			id=11;
 			type="Logic";
 		};
@@ -728,7 +728,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5680.0171,3.1889114,4505.9849};
+				position[]={5680.0176,3.1889107,4505.9854};
 				angles[]={6.2591867,4.1282969,6.251193};
 			};
 			side="Empty";
@@ -736,11 +736,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{_s = [this, spawn_25, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=13;
 			type="Land_InfoStand_V1_F";
-			atlOffset=-3.0994415e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -774,6 +772,7 @@ class Mission
 				angles[]={0.031988446,5.1345849,0.023993526};
 			};
 			name="spawn_25";
+			init="call{[this, [""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			id=14;
 			type="Logic";
 		};
@@ -1935,7 +1934,6 @@ class Mission
 			};
 			id=71;
 			type="FIR_Baseplate";
-			atlOffset=2.3841858e-007;
 		};
 		class Item67
 		{
@@ -3927,15 +3925,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6916.2236,2.6614389,7381.6123};
-						angles[]={0,1.3689606,0};
+						position[]={6916.2241,2.6614389,7381.6128};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this setgroupID[""PEGASUS-6""];}";
+						init="call{this setgroupID [""PEGASUS-6""]; this setVariable [""cScripts_Player_Unit"", ""PEGASUS-6""]; }";
 						description="Pegasus-6 (Air Controller) @AIR COMMAND AND CONTROL";
 						isPlayable=1;
 					};
@@ -3989,14 +3987,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6916.0234,2.6614389,7382.5923};
-						angles[]={0,1.3689606,0};
+						position[]={6916.0229,2.6614389,7382.5918};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""PEGASUS-5""]; }";
 						description="Pegasus-5 (Air Controller)";
 						isPlayable=1;
 					};
@@ -4050,14 +4049,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6915.7974,2.6614389,7383.6875};
-						angles[]={0,1.3689606,0};
+						position[]={6915.7969,2.6614389,7383.688};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""PEGASUS-7""]; }";
 						description="Pegasus-7 (Air Controller)";
 						isPlayable=1;
 					};
@@ -4124,15 +4124,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6916.8252,2.6614389,7378.6733};
-						angles[]={0,1.3689606,0};
+						position[]={6916.8252,2.6614389,7378.6738};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this setgroupID[""INFIDEL-1""];}";
+						init="call{this setgroupID [""INFIDEL-1""]; this setVariable [""cScripts_Player_Unit"", ""INFIDEL-1""]; }";
 						description="Infidel-1 (Forward Air Controller)@Forward Air Controllers";
 						isPlayable=1;
 					};
@@ -4186,14 +4186,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6916.6245,2.6614389,7379.6528};
-						angles[]={0,1.3689606,0};
+						position[]={6916.625,2.6614389,7379.6528};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""INFIDEL-2""]; }";
 						description="Infidel-2 (Forward Air Controller) ";
 						isPlayable=1;
 					};
@@ -4247,14 +4248,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6916.4243,2.6614389,7380.6328};
-						angles[]={0,1.3689606,0};
+						position[]={6916.4238,2.6614389,7380.6328};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""cScripts_Player_Unit"", ""INFIDEL-3""]; }";
 						description="Infidel-3 (Forward Air Controller)";
 						isPlayable=1;
 					};
@@ -8182,14 +8184,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6793.0356,2.6614389,7296.2813};
-						angles[]={0,0.71052969,0};
+						position[]={6793.0361,2.6614389,7296.2808};
+						angles[]={0,0.71052355,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="call{this setGroupId ""EAGLE-1""; this setVariable [""cScripts_Player_Unit"", ""EAGLE-1""]; }";
+						init="call{this setGroupId [""EAGLE-1""]; this setVariable [""cScripts_Player_Unit"", ""EAGLE-1""]; }";
 						name="Eagle_1";
 						description="Eagle 1 (Pilot & Flightleader)@2ND PLATOON ATTACK FIXED WING AVIATION";
 						isPlayable=1;
@@ -8519,14 +8521,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6788.6035,2.6614389,7300.3252};
-						angles[]={0,0.71052969,0};
+						position[]={6788.604,2.6614389,7300.3247};
+						angles[]={0,0.71052355,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="call{this setGroupId ""EAGLE-5""; this setVariable [""cScripts_Player_Unit"", ""EAGLE-5""]; }";
+						init="call{this setGroupId [""EAGLE-5""]; this setVariable [""cScripts_Player_Unit"", ""EAGLE-5""]; }";
 						name="Eagle_5";
 						description="Eagle-5 (Pilot & Flightleader) @Eagle Flight 2";
 						isPlayable=1;
@@ -8856,14 +8858,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6791.0137,2.6614389,7294.0649};
-						angles[]={0,0.71052969,0};
+						position[]={6791.0142,2.6614389,7294.0649};
+						angles[]={0,0.71052355,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="call{this setGroupId ""HOG-1""; this setVariable [""cScripts_Player_Unit"", ""HOG-1""]; }";
+						init="call{this setGroupId [""HOG-1""]; this setVariable [""cScripts_Player_Unit"", ""HOG-1""]; }";
 						name="HOG_1";
 						description="Hog-1 (Pilot & Flightleader) @Hog Flight 1";
 						isPlayable=1;
@@ -9193,14 +9195,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6786.5815,2.6614389,7298.1089};
-						angles[]={0,0.71052969,0};
+						position[]={6786.582,2.6614389,7298.1089};
+						angles[]={0,0.71052355,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="call{this setGroupId ""HOG-5""; this setVariable [""cScripts_Player_Unit"", ""HOG-5""]; }";
+						init="call{this setGroupId [""HOG-5""]; this setVariable [""cScripts_Player_Unit"", ""HOG-5""]; }";
 						name="HOG_5";
 						description="Hog-5 (Pilot & Flightleader) @Hog Flight 2";
 						isPlayable=1;
@@ -9530,14 +9532,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6788.9917,2.6626632,7291.8486};
-						angles[]={0,0.71052969,0};
+						position[]={6788.9922,2.6626608,7291.8486};
+						angles[]={0,0.71052355,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="call{this setGroupId ""ATLAS-1""; this setVariable [""cScripts_Player_Unit"", ""ATLAS-1""]; }";
+						init="call{this setGroupId [""ATLAS-1""]; this setVariable [""cScripts_Player_Unit"", ""ATLAS-1""]; }";
 						name="Atlas_1";
 						description="Atlas-1 (Pilot & Flightleader)@2ND PLATOON TRANSPORT FIXED WING AVIATION";
 						isPlayable=1;
@@ -9867,14 +9869,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6784.5596,2.6636972,7295.8926};
-						angles[]={0,0.71052969,0};
+						position[]={6784.5601,2.6636961,7295.8926};
+						angles[]={0,0.71052355,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="call{this setGroupId ""ATLAS-5""; this setVariable [""cScripts_Player_Unit"", ""ATLAS-5""]; }";
+						init="call{this setGroupId [""ATLAS-5""]; this setVariable [""cScripts_Player_Unit"", ""ATLAS-5""]; }";
 						name="Atlas_5";
 						description="Atlas-5 (Pilot & Flightleader)@Atlas Flight 2";
 						isPlayable=1;
@@ -13906,15 +13908,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6912.1318,2.6754389,7379.1221};
-						angles[]={0,1.3689606,0};
+						position[]={6912.1318,2.6754389,7379.1216};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this setGroupid ""MUSTANG-1""; this setVariable [""cScripts_Player_Unit"", ""MUSTANG-1""]; }";
+						init="call{this setGroupid [""MUSTANG-1""]; this setVariable [""cScripts_Player_Unit"", ""MUSTANG-1""]; }";
 						name="Mustang_1_1";
 						description="1: Team Leader (MUSTANG-1)@MOBILE MEDICAL TEAM";
 						isPlayable=1;
@@ -14173,15 +14175,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6913.3149,2.6614389,7379.6255};
-						angles[]={0,1.3689606,0};
+						position[]={6913.3149,2.6614389,7379.626};
+						angles[]={0,1.3689663,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this setGroupid ""MUSTANG-2""; this setVariable [""cScripts_Player_Unit"", ""MUSTANG-2""]; }";
+						init="call{this setGroupid [""MUSTANG-2""]; this setVariable [""cScripts_Player_Unit"", ""MUSTANG-2""]; }";
 						name="Mustang_2_1";
 						description="1: Team Leader (MUSTANG-2)@Mustang 2";
 						isPlayable=1;
@@ -16631,13 +16633,12 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6959,3.2353642,7503};
-				angles[]={0,0.75701141,0};
+				angles[]={0,0.7570191,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{_s = [this, spawn_13, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			};
 			id=678;
 			type="Land_InfoStand_V1_F";
@@ -16670,10 +16671,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6980.7988,2.6600001,7525.2324};
-				angles[]={0,0.42369518,0};
+				position[]={6983,2.6600001,7526};
+				angles[]={-0,0.4236961,0};
 			};
 			name="spawn_14";
+			init="call{[this, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			id=679;
 			type="Logic";
 		};
@@ -16698,8 +16700,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6982.3369,2.6600001,7524.5151};
-				angles[]={0,0.42507929,0};
+				position[]={6983,2.6600001,7526};
+				angles[]={-0,0.42507929,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16715,7 +16717,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6937,2.6600001,7466};
-				angles[]={-0,1.3990035,0};
+				angles[]={0,1.3990035,0};
 			};
 			name="spawn_10";
 			init="call{[this, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
