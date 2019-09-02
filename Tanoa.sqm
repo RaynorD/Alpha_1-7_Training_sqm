@@ -8,14 +8,14 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=678;
+		nextID=682;
 	};
 	class Camera
 	{
-		pos[]={6956.6255,25.685328,7237.9141};
-		dir[]={0.0094625847,-0.29032844,-0.95700818};
-		up[]={0.0028716021,0.95690566,-0.29041183};
-		aside[]={-1.0000716,-5.6460703e-007,-0.0098863207};
+		pos[]={6968.9067,54.427158,7363.4419};
+		dir[]={-0.28180283,-0.44409683,-0.85065335};
+		up[]={-0.1396786,0.89594465,-0.42163426};
+		aside[]={-0.94937634,3.1897798e-008,0.31451184};
 	};
 };
 binarizationWanted=0;
@@ -365,8 +365,7 @@ class Mission
 		year=2035;
 		month=6;
 		day=6;
-		hour=21;
-		minute=7;
+		hour=8;
 		startFogBase=250;
 		forecastFogBase=250;
 		startFogDecay=0.014;
@@ -374,7 +373,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=224;
+		items=228;
 		class Item0
 		{
 			dataType="Logic";
@@ -3080,8 +3079,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6997.6621,2.6800032,7529.1689};
-				angles[]={-0,3.5428922,6.2805333};
+				position[]={7007.4351,2.6804352,7535.3135};
+				angles[]={-0,3.5428922,0};
 			};
 			side="Empty";
 			flags=4;
@@ -3096,8 +3095,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6937,2.6600001,7466};
-				angles[]={0,4.5405879,0};
+				position[]={6936.6265,2.6600001,7465.7866};
+				angles[]={-0,1.3989952,0};
 			};
 			side="Empty";
 			flags=4;
@@ -3112,8 +3111,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6937,2.6600001,7466};
-				angles[]={0,1.3989861,0};
+				position[]={6937.0439,2.6600001,7463.686};
+				angles[]={-0,1.3989861,0};
 			};
 			name="spawn_13";
 			id=402;
@@ -15022,7 +15021,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6913,3.2353642,7450};
-				angles[]={-0,0.98159242,0};
+				angles[]={0,0.98159063,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16637,16 +16636,100 @@ class Mission
 			};
 			id=676;
 		};
+		class Item224
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6959,3.2353642,7503};
+				angles[]={-0,0.75701141,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{_s = [this, spawn_13, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
+			};
+			id=678;
+			type="Land_InfoStand_V1_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\spawn_mixed.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item225
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6980.7988,2.6600001,7525.2324};
+				angles[]={-0,0.42369518,0};
+			};
+			name="spawn_14";
+			id=679;
+			type="Logic";
+		};
+		class Item226
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6959,3.3600001,7503};
+				angles[]={0,5.4699144,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=680;
+			type="Sign_Sphere25cm_F";
+			atlOffset=0.70000005;
+		};
+		class Item227
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6982.3369,2.6600001,7524.5151};
+				angles[]={-0,0.42507929,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=681;
+			type="Land_JumpTarget_F";
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=13;
+			nextID=18;
 		};
 		class Links
 		{
-			items=13;
+			items=18;
 			class Item0
 			{
 				linkID=0;
@@ -16772,6 +16855,56 @@ class Mission
 				linkID=12;
 				item0=618;
 				item1=70;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item13
+			{
+				linkID=13;
+				item0=621;
+				item1=372;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item14
+			{
+				linkID=14;
+				item0=620;
+				item1=370;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item15
+			{
+				linkID=15;
+				item0=619;
+				item1=365;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item16
+			{
+				linkID=16;
+				item0=622;
+				item1=401;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item17
+			{
+				linkID=17;
+				item0=678;
+				item1=681;
 				class CustomData
 				{
 					type="Sync";
