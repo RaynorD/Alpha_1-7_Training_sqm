@@ -8,14 +8,14 @@ class EditorData
 	toggles=45;
 	class ItemIDProvider
 	{
-		nextID=392;
+		nextID=396;
 	};
 	class Camera
 	{
-		pos[]={9377.8789,92.908585,16553.336};
-		dir[]={-0.20326856,-0.25994277,0.94399107};
-		up[]={-0.054719325,0.96562314,0.2541194};
-		aside[]={0.97759634,1.618173e-008,0.21050532};
+		pos[]={15571.82,35.659016,601.82898};
+		dir[]={-0.6598466,-0.71198285,-0.24019659};
+		up[]={-0.66903818,0.70219463,-0.24354222};
+		aside[]={-0.34206301,-1.7508864e-007,0.93968302};
 	};
 };
 binarizationWanted=0;
@@ -47,13 +47,14 @@ addons[]=
 	"CUP_WarfareBuildings",
 	"CUP_Misc3_Config",
 	"FIR_AirWeaponSystem_US",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"ace_medical"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=26;
 		class Item0
 		{
 			className="rhsusf_c_HEMTT_A4";
@@ -219,6 +220,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item25
+		{
+			className="ace_medical";
+			name="ACE3 - Medical";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
 	};
 };
 randomSeed=6079535;
@@ -279,7 +287,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=164;
+		items=166;
 		class Item0
 		{
 			dataType="Object";
@@ -4732,7 +4740,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15549.669,3.7238274,606.0293};
+				position[]={15550.657,3.7238274,604.29077};
 				angles[]={0,4.195303,0};
 			};
 			side="Empty";
@@ -4772,7 +4780,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15555.601,3.7238274,595.59924};
+				position[]={15554.612,3.7238274,597.33777};
 				angles[]={0,4.195303,0};
 			};
 			side="Empty";
@@ -14657,6 +14665,86 @@ class Mission
 			angle=60;
 			id=391;
 			atlOffset=-0.00040459633;
+		};
+		class Item164
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15556.096,2.8314047,594.72998};
+				angles[]={0,4.1953001,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{this execVM ""crate.sqf""}";
+			};
+			id=394;
+			type="ACE_medicalSupplyCrate_advanced";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item165
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15549.174,2.8314047,606.89856};
+				angles[]={0,4.1953001,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{this execVM ""crate.sqf""}";
+			};
+			id=395;
+			type="ACE_medicalSupplyCrate_advanced";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
