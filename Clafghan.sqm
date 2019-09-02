@@ -8,14 +8,14 @@ class EditorData
 	toggles=45;
 	class ItemIDProvider
 	{
-		nextID=370;
+		nextID=392;
 	};
 	class Camera
 	{
-		pos[]={15362.21,37.80323,1109.813};
-		dir[]={-0.69934893,-0.41732958,-0.58049446};
-		up[]={-0.32116666,0.90873134,-0.26658294};
-		aside[]={-0.6387592,6.6962093e-007,0.76954812};
+		pos[]={9377.8789,92.908585,16553.336};
+		dir[]={-0.20326856,-0.25994277,0.94399107};
+		up[]={-0.054719325,0.96562314,0.2541194};
+		aside[]={0.97759634,1.618173e-008,0.21050532};
 	};
 };
 binarizationWanted=0;
@@ -46,13 +46,14 @@ addons[]=
 	"A3_Structures_F_Mil_Helipads",
 	"CUP_WarfareBuildings",
 	"CUP_Misc3_Config",
-	"FIR_AirWeaponSystem_US"
+	"FIR_AirWeaponSystem_US",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=24;
+		items=25;
 		class Item0
 		{
 			className="rhsusf_c_HEMTT_A4";
@@ -211,6 +212,13 @@ class AddonsMetaData
 			className="FIR_AirWeaponSystem_US";
 			name="FIR_AirWeaponSystem_US";
 		};
+		class Item24
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=6079535;
@@ -264,14 +272,14 @@ class Mission
 		year=2019;
 		month=2;
 		day=2;
-		hour=1;
+		hour=9;
 		minute=0;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
 	class Entities
 	{
-		items=151;
+		items=164;
 		class Item0
 		{
 			dataType="Object";
@@ -11642,7 +11650,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15351.437,2.8314047,1166.646};
-				angles[]={-0,1.0535884,0};
+				angles[]={0,1.0535884,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11658,7 +11666,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15579.094,2.8314047,776.46796};
-				angles[]={-0,1.0535884,0};
+				angles[]={0,1.0535884,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11674,7 +11682,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15697.877,2.8314047,567.25165};
-				angles[]={-0,1.0535884,0};
+				angles[]={0,1.0535884,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11688,7 +11696,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={15351.98,2.8314047,1166.8596};
-			angle=1.0535886;
+			angle=1.0535885;
 			class Attributes
 			{
 				condition="call{this and ((getPos (thisList select 0)) select 2 < 1);}";
@@ -11707,7 +11715,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={15579.201,2.8314047,776.84595};
-			angle=1.0535886;
+			angle=1.0535885;
 			class Attributes
 			{
 				condition="call{this and ((getPos (thisList select 0)) select 2 < 1);}";
@@ -11726,7 +11734,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={15698.463,2.8314047,567.36884};
-			angle=1.0535886;
+			angle=1.0535885;
 			class Attributes
 			{
 				condition="call{this and ((getPos (thisList select 0)) select 2 < 1);}";
@@ -11747,7 +11755,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15719.588,2.8664999,524.46686};
-				angles[]={-0,1.0074096,0};
+				angles[]={0,1.0074096,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11764,7 +11772,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15353.67,2.8314047,921.5};
-				angles[]={-0,1.0471976,0};
+				angles[]={0,1.0471976,0};
 			};
 			name="spawn_6";
 			init="call{[this] execVM ""scripts\hangarlight.sqf""; [this, ""list_spawn_fixedWing_official_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -11777,7 +11785,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15408.069,4.7964869,1045.3325};
-				angles[]={-0,4.1667409,0};
+				angles[]={0,4.1667409,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11793,7 +11801,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15410.272,4.850008,1041.1174};
-				angles[]={-0,4.1600213,0};
+				angles[]={0,4.1600213,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11809,7 +11817,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15413.168,4.7474089,1036.6302};
-				angles[]={-0,4.1961708,0};
+				angles[]={0,4.1961708,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11825,7 +11833,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15324.386,3.7238274,1002.2441};
-				angles[]={-0,4.1816196,0};
+				angles[]={0,4.1816196,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13904,7 +13912,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15370,3.4067688,942};
-				angles[]={-0,3.8355434,0};
+				angles[]={0,3.8355434,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14007,7 +14015,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15307.955,3.3627381,1053.2161};
-				angles[]={-0,0.042902853,0};
+				angles[]={0,0.042902853,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14063,7 +14071,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15323.196,2.8314047,1094};
-				angles[]={-0,5.7595863,0};
+				angles[]={0,5.7595863,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14079,7 +14087,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15423.297,2.8518405,1015.7262};
-				angles[]={-0,1.0074096,0};
+				angles[]={0,1.0074096,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14095,7 +14103,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15329.06,2.8518405,1182.537};
-				angles[]={-0,1.0074096,0};
+				angles[]={0,1.0074096,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14111,7 +14119,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15737.491,2.8518405,370.35181};
-				angles[]={-0,1.0074096,0};
+				angles[]={0,1.0074096,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14127,7 +14135,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15327.188,3,968.70563};
-				angles[]={-0,1.0471976,0};
+				angles[]={0,1.0471976,0};
 			};
 			name="spawn_7";
 			init="call{[this] execVM ""scripts\hangarlight.sqf""; [this, ""list_spawn_fixedWing_official_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -14141,7 +14149,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15343.519,3.4946332,989.20563};
-				angles[]={-0,3.8355434,0};
+				angles[]={0,3.8355434,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14197,7 +14205,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15297,3.0004046,1020.229};
-				angles[]={-0,1.0471976,0};
+				angles[]={0,1.0471976,0};
 			};
 			name="spawn_8";
 			init="call{[this] execVM ""scripts\hangarlight.sqf""; [this, ""list_spawn_fixedWing_official_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -14211,7 +14219,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15324,3.4067688,1023};
-				angles[]={-0,4.6029186,0};
+				angles[]={0,4.6029186,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14280,7 +14288,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15323.196,2.8314047,1094};
-				angles[]={-0,5.7595863,0};
+				angles[]={0,5.7595863,0};
 			};
 			name="spawn_9";
 			init="call{[this, [""Plane""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -14293,7 +14301,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15454,2.8314047,1201};
-				angles[]={-0,4.1887903,0};
+				angles[]={0,4.1887903,0};
 			};
 			name="spawn_5";
 			init="call{[this, ""list_spawn_rotary_official""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -14425,7 +14433,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15454,2.8314047,1201};
-				angles[]={-0,4.1887903,0};
+				angles[]={0,4.1887903,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14450,6 +14458,7 @@ class Mission
 			};
 			id=366;
 			type="Land_LampHalogen_F";
+			atlOffset=-4.7683716e-007;
 		};
 		class Item148
 		{
@@ -14466,6 +14475,7 @@ class Mission
 			};
 			id=367;
 			type="Land_LampHalogen_F";
+			atlOffset=-4.7683716e-007;
 		};
 		class Item149
 		{
@@ -14482,6 +14492,7 @@ class Mission
 			};
 			id=368;
 			type="Land_LampHalogen_F";
+			atlOffset=-4.7683716e-007;
 		};
 		class Item150
 		{
@@ -14498,6 +14509,154 @@ class Mission
 			};
 			id=369;
 			type="Land_LampHalogen_F";
+			atlOffset=-4.7683716e-007;
+		};
+		class Item151
+		{
+			dataType="Marker";
+			position[]={15911,2.8310547,290};
+			name="marker_0";
+			text="33";
+			type="mil_arrow2";
+			colorName="ColorYellow";
+			angle=329.99997;
+			id=371;
+			atlOffset=-0.00034999847;
+		};
+		class Item152
+		{
+			dataType="Marker";
+			position[]={15306,2.8310547,1376};
+			name="marker_7";
+			text="15";
+			type="mil_arrow2";
+			colorName="ColorYellow";
+			angle=149.99998;
+			id=372;
+			atlOffset=-0.00034999847;
+		};
+		class Item153
+		{
+			dataType="Marker";
+			position[]={15299,2.8310001,1241};
+			name="marker_9";
+			text="Alpha";
+			type="mil_triangle";
+			angle=60;
+			id=374;
+			atlOffset=-0.00040459633;
+		};
+		class Item154
+		{
+			dataType="Marker";
+			position[]={15548,2.8312988,598};
+			name="marker_4";
+			text="Command / Infantry Staging";
+			type="mil_flag";
+			colorName="ColorBlue";
+			id=378;
+			atlOffset=-0.00010585785;
+		};
+		class Item155
+		{
+			dataType="Marker";
+			position[]={15551,2.8312988,861};
+			name="marker_15";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorWEST";
+			fillName="Border";
+			a=2000;
+			b=2000;
+			drawBorder=1;
+			id=381;
+			atlOffset=-0.00010585785;
+		};
+		class Item156
+		{
+			dataType="Marker";
+			position[]={15317,2.8312988,995};
+			name="respawn_west_fixedwing";
+			text="Fixed Wing Spawn";
+			type="Empty";
+			angle=229.3566;
+			id=382;
+			atlOffset=-0.00010585785;
+		};
+		class Item157
+		{
+			dataType="Marker";
+			position[]={15316,2.8312988,997};
+			name="marker_3";
+			text="Fixed Wing Staging";
+			type="mil_flag";
+			colorName="ColorBlue";
+			id=383;
+			atlOffset=-0.00010585785;
+		};
+		class Item158
+		{
+			dataType="Marker";
+			position[]={15465,2.8312988,974};
+			name="marker_5";
+			text="Helicopter Failure Pad";
+			type="mil_circle";
+			colorName="ColorBlue";
+			id=386;
+			atlOffset=-0.00010585785;
+		};
+		class Item159
+		{
+			dataType="Marker";
+			position[]={15548,2.8312988,599};
+			name="respawn_west_Infantry";
+			text="Infantry Staging";
+			type="Empty";
+			angle=128.26692;
+			id=387;
+			atlOffset=-0.00010585785;
+		};
+		class Item160
+		{
+			dataType="Marker";
+			position[]={15473,2.8312988,1286};
+			name="marker_2";
+			text="Rotary Staging";
+			type="mil_flag";
+			colorName="ColorBlue";
+			id=388;
+			atlOffset=-0.00010585785;
+		};
+		class Item161
+		{
+			dataType="Marker";
+			position[]={5644.8076,1738.1716,4598.5156};
+			name="marker_19";
+			text="Static Air Weapon Range";
+			type="mil_destroy";
+			colorName="ColorEAST";
+			id=389;
+		};
+		class Item162
+		{
+			dataType="Marker";
+			position[]={15473.95,2.8314047,1290.1348};
+			name="respawn_west_helicopters";
+			text="Rotary Wing Spawn";
+			type="Empty";
+			angle=33.377171;
+			id=390;
+		};
+		class Item163
+		{
+			dataType="Marker";
+			position[]={15756.652,2.8310001,470.20599};
+			name="marker_11";
+			text="Bravo";
+			type="mil_triangle";
+			angle=60;
+			id=391;
+			atlOffset=-0.00040459633;
 		};
 	};
 	class Connections
