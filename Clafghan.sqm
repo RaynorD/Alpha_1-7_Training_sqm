@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15571.82,35.659016,601.82898};
-		dir[]={-0.6598466,-0.71198285,-0.24019659};
-		up[]={-0.66903818,0.70219463,-0.24354222};
-		aside[]={-0.34206301,-1.7508864e-007,0.93968302};
+		pos[]={11282.652,2144.0813,5471.1426};
+		dir[]={-0.3119916,-0.53547508,0.78481597};
+		up[]={-0.19781286,0.84455037,0.49759862};
+		aside[]={0.92926806,3.3935066e-008,0.36941627};
 	};
 };
 binarizationWanted=0;
@@ -287,7 +287,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=166;
+		items=164;
 		class Item0
 		{
 			dataType="Object";
@@ -14527,7 +14527,7 @@ class Mission
 			text="33";
 			type="mil_arrow2";
 			colorName="ColorYellow";
-			angle=329.99997;
+			angle=329.99994;
 			id=371;
 			atlOffset=-0.00034999847;
 		};
@@ -14539,7 +14539,7 @@ class Mission
 			text="15";
 			type="mil_arrow2";
 			colorName="ColorYellow";
-			angle=149.99998;
+			angle=149.99997;
 			id=372;
 			atlOffset=-0.00034999847;
 		};
@@ -14605,17 +14605,6 @@ class Mission
 		class Item158
 		{
 			dataType="Marker";
-			position[]={15465,2.8312988,974};
-			name="marker_5";
-			text="Helicopter Failure Pad";
-			type="mil_circle";
-			colorName="ColorBlue";
-			id=386;
-			atlOffset=-0.00010585785;
-		};
-		class Item159
-		{
-			dataType="Marker";
 			position[]={15548,2.8312988,599};
 			name="respawn_west_Infantry";
 			text="Infantry Staging";
@@ -14624,7 +14613,7 @@ class Mission
 			id=387;
 			atlOffset=-0.00010585785;
 		};
-		class Item160
+		class Item159
 		{
 			dataType="Marker";
 			position[]={15473,2.8312988,1286};
@@ -14635,17 +14624,7 @@ class Mission
 			id=388;
 			atlOffset=-0.00010585785;
 		};
-		class Item161
-		{
-			dataType="Marker";
-			position[]={5644.8076,1738.1716,4598.5156};
-			name="marker_19";
-			text="Static Air Weapon Range";
-			type="mil_destroy";
-			colorName="ColorEAST";
-			id=389;
-		};
-		class Item162
+		class Item160
 		{
 			dataType="Marker";
 			position[]={15473.95,2.8314047,1290.1348};
@@ -14655,7 +14634,7 @@ class Mission
 			angle=33.377171;
 			id=390;
 		};
-		class Item163
+		class Item161
 		{
 			dataType="Marker";
 			position[]={15756.652,2.8310001,470.20599};
@@ -14666,7 +14645,7 @@ class Mission
 			id=391;
 			atlOffset=-0.00040459633;
 		};
-		class Item164
+		class Item162
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14706,7 +14685,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item165
+		class Item163
 		{
 			dataType="Object";
 			class PositionInfo
