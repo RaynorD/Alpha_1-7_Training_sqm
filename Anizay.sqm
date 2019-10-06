@@ -8,14 +8,14 @@ class EditorData
 	toggles=545;
 	class ItemIDProvider
 	{
-		nextID=733;
+		nextID=734;
 	};
 	class Camera
 	{
-		pos[]={8479.5918,193.73209,6920.1289};
-		dir[]={-0.43021446,-0.58493418,-0.68762261};
-		up[]={-0.31025621,0.811068,-0.4958908};
-		aside[]={-0.84776765,3.0337833e-007,0.53041011};
+		pos[]={8427.0225,122.61291,6825.6157};
+		dir[]={0.25655729,-0.77237248,-0.58110344};
+		up[]={0.31195438,0.63516355,-0.7065776};
+		aside[]={-0.91483176,3.1641684e-007,-0.40389827};
 	};
 };
 binarizationWanted=0;
@@ -274,7 +274,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=176;
+		items=177;
 		class Item0
 		{
 			dataType="Marker";
@@ -15748,6 +15748,24 @@ class Mission
 			id=730;
 			type="Logic";
 			atlOffset=12;
+		};
+		class Item176
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8433.1201,112.11536,6821.0107};
+				angles[]={-0,1.0078206,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if(!isNil ""cav_dynobj_fnc_cmAddController"") then {[this] call cav_dynobj_fnc_cmAddController};}";
+				presenceCondition="!isNil ""cav_dynobj_fnc_cmAddController""";
+			};
+			id=733;
+			type="Land_InfoStand_V1_F";
 		};
 	};
 	class Connections

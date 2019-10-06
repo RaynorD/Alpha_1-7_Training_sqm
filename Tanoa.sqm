@@ -8,14 +8,14 @@ class EditorData
 	toggles=5;
 	class ItemIDProvider
 	{
-		nextID=687;
+		nextID=688;
 	};
 	class Camera
 	{
-		pos[]={6989.6826,27.66,7496.2715};
-		dir[]={-0.56647962,-0.71999007,0.40089443};
-		up[]={-0.58770698,0.69398344,0.41591713};
-		aside[]={0.57767045,2.0721927e-008,0.81627035};
+		pos[]={6935.1489,20.425678,7376.6338};
+		dir[]={-0.57200086,-0.81342006,-0.10569488};
+		up[]={-0.79988009,0.58167493,-0.1478024};
+		aside[]={-0.18170433,2.4383189e-007,0.98335522};
 	};
 };
 binarizationWanted=0;
@@ -373,7 +373,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=228;
+		items=229;
 		class Item0
 		{
 			dataType="Logic";
@@ -1934,7 +1934,6 @@ class Mission
 			};
 			id=71;
 			type="FIR_Baseplate";
-			atlOffset=2.3841858e-007;
 		};
 		class Item67
 		{
@@ -16673,7 +16672,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6983,2.6600001,7526};
-				angles[]={-0,0.4236961,0};
+				angles[]={0,0.4236961,0};
 			};
 			name="spawn_14";
 			init="call{[this, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -16702,7 +16701,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6983,2.6600001,7526};
-				angles[]={-0,0.42507929,0};
+				angles[]={0,0.42507929,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16724,6 +16723,24 @@ class Mission
 			init="call{[this, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
 			id=682;
 			type="Logic";
+		};
+		class Item228
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6923.7642,3.2353642,7373.6465};
+				angles[]={-0,1.3985473,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if(!isNil ""cav_dynobj_fnc_cmAddController"") then {[this] call cav_dynobj_fnc_cmAddController};}";
+				presenceCondition="!isNil ""cav_dynobj_fnc_cmAddController""";
+			};
+			id=687;
+			type="Land_InfoStand_V1_F";
 		};
 	};
 	class Connections

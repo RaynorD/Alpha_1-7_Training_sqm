@@ -8,14 +8,14 @@ class EditorData
 	toggles=517;
 	class ItemIDProvider
 	{
-		nextID=939;
+		nextID=940;
 	};
 	class Camera
 	{
-		pos[]={735.93219,124.95004,4517.7456};
-		dir[]={0.39214644,-0.58401012,0.71074539};
-		up[]={0.28212953,0.81174374,0.51134491};
-		aside[]={0.87557387,1.1536758e-007,-0.48308918};
+		pos[]={730.80829,26.264095,4813.0898};
+		dir[]={0.52624273,-0.67435092,0.5180161};
+		up[]={0.48058432,0.73840487,0.47307149};
+		aside[]={0.70152211,-1.9674189e-008,-0.71266115};
 	};
 };
 binarizationWanted=0;
@@ -332,7 +332,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=198;
+		items=199;
 		class Item0
 		{
 			dataType="Marker";
@@ -1613,7 +1613,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={792.03888,15.13,4761.459};
-				angles[]={-0,3.9499419,0};
+				angles[]={0,3.9499419,0};
 			};
 			name="spawn_14";
 			init="call{[this, ""list_spawn_rotary_official_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -1626,7 +1626,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={836.78723,15.13,4711.1855};
-				angles[]={-0,3.9499419,0};
+				angles[]={0,3.9499419,0};
 			};
 			name="spawn_16";
 			init="call{[this, ""list_spawn_rotary_official_small_hangar""] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -2340,7 +2340,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={792.03888,15.13,4761.459};
-				angles[]={-0,3.9523504,0};
+				angles[]={0,3.9523504,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2394,7 +2394,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={792,15.13,4636.5};
-				angles[]={-0,4.1655774,0};
+				angles[]={0,4.1655774,0};
 			};
 			name="spawn_10";
 			init="call{[this, [""Plane"",""Helicopter""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -14604,7 +14604,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={792,15.13,4636.5};
-				angles[]={-0,4.1564617,0};
+				angles[]={0,4.1564617,0};
 			};
 			side="Empty";
 			flags=4;
@@ -15155,6 +15155,24 @@ class Mission
 			id=938;
 			type="Sign_Sphere25cm_F";
 			atlOffset=0.69999981;
+		};
+		class Item198
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={737.84802,15.705364,4817.4561};
+				angles[]={0,3.9474111,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if(!isNil ""cav_dynobj_fnc_cmAddController"") then {[this] call cav_dynobj_fnc_cmAddController};}";
+				presenceCondition="!isNil ""cav_dynobj_fnc_cmAddController""";
+			};
+			id=939;
+			type="Land_InfoStand_V1_F";
 		};
 	};
 	class Connections

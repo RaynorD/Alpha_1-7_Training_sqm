@@ -5,17 +5,17 @@ class EditorData
 	angleGridStep=0.08726646;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=525;
+	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=748;
+		nextID=750;
 	};
 	class Camera
 	{
-		pos[]={4449.1362,361.17676,10758.072};
-		dir[]={0.88426143,-0.46517119,-0.042586397};
-		up[]={0.46465841,0.88521487,-0.022379406};
-		aside[]={-0.048106421,7.0304668e-007,-0.99889266};
+		pos[]={4599.0767,350.01108,10387.771};
+		dir[]={0.58566481,-0.68695134,0.43040496};
+		up[]={0.55355453,0.72670972,0.40680525};
+		aside[]={0.59222442,5.9674494e-007,-0.80585718};
 	};
 };
 binarizationWanted=0;
@@ -362,7 +362,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=245;
+		items=246;
 		class Item0
 		{
 			dataType="Marker";
@@ -1562,7 +1562,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4192.5,339,10736.5};
-				angles[]={-0,4.2089586,0};
+				angles[]={0,4.2089586,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1579,7 +1579,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4193,339.57538,10746.5};
-				angles[]={-0,2.6878943,0};
+				angles[]={0,2.6878943,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1632,7 +1632,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4207,339,10711};
-				angles[]={-0,4.2089586,0};
+				angles[]={0,4.2089586,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1649,7 +1649,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4208,339.57538,10720.5};
-				angles[]={-0,2.6878943,0};
+				angles[]={0,2.6878943,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1702,7 +1702,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4176.5,339,10711.5};
-				angles[]={-0,4.2089586,0};
+				angles[]={0,4.2089586,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1719,7 +1719,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4177,339.57538,10721};
-				angles[]={-0,2.6878943,0};
+				angles[]={0,2.6878943,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14631,7 +14631,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4815.5,339,10126.5};
-				angles[]={-0,2.6200881,0};
+				angles[]={0,2.6200881,0};
 			};
 			name="spawn_15";
 			init="call{[this, [""Plane""]] execVM ""RaynorsVehicleSpawn\addSpawner.sqf"";}";
@@ -16654,7 +16654,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4815.5,339,10126.5};
-				angles[]={-0,5.7583003,0};
+				angles[]={0,5.7583003,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16708,6 +16708,24 @@ class Mission
 			id=747;
 			type="Sign_Sphere25cm_F";
 			atlOffset=0.70001221;
+		};
+		class Item245
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4604.4014,339.57538,10401.223};
+				angles[]={-0,5.7202096,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if(!isNil ""cav_dynobj_fnc_cmAddController"") then {[this] call cav_dynobj_fnc_cmAddController};}";
+				presenceCondition="!isNil ""cav_dynobj_fnc_cmAddController""";
+			};
+			id=749;
+			type="Land_InfoStand_V1_F";
 		};
 	};
 	class Connections
