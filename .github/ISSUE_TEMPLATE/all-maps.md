@@ -12,7 +12,9 @@ Description
 - [ ] Anizay
 - [ ] Altis
 - [ ] Chernarus
+- [ ] Clafghan
 - [ ] Livonia
+- [ ] Lythium
 - [ ] Malden
 - [ ] Tanoa
 - [ ] Rosche
