@@ -8,14 +8,14 @@ class EditorData
 	toggles=517;
 	class ItemIDProvider
 	{
-		nextID=940;
+		nextID=964;
 	};
 	class Camera
 	{
-		pos[]={730.80829,26.264095,4813.0898};
-		dir[]={0.52624273,-0.67435092,0.5180161};
-		up[]={0.48058432,0.73840487,0.47307149};
-		aside[]={0.70152211,-1.9674189e-008,-0.71266115};
+		pos[]={614.82507,42.830318,4793.9126};
+		dir[]={0.92772472,-0.37321648,0.0096887304};
+		up[]={0.3732132,0.9277389,0.003897307};
+		aside[]={0.010445203,8.2033876e-007,-0.99997336};
 	};
 };
 binarizationWanted=0;
@@ -323,9 +323,8 @@ class Mission
 		forecastLightnings=0.1;
 		wavesForced=1;
 		windForced=1;
-		year=1989;
-		month=8;
-		day=8;
+		year=2035;
+		month=6;
 		minute=0;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
@@ -7657,7 +7656,7 @@ class Mission
 						angles[]={0,2.3846085,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="call{this setGroupId [""EAGLE-1""]; this setVariable [""cScripts_Player_Unit"", ""EAGLE-1""]; }";
@@ -7665,8 +7664,8 @@ class Mission
 						description="Eagle 1 (Pilot & Flightleader)@2ND PLATOON ATTACK FIXED WING AVIATION";
 						isPlayable=1;
 					};
-					id=791;
-					type="B_Fighter_Pilot_F";
+					id=940;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7738,7 +7737,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""EAGLE-2""]; }";
@@ -7746,8 +7745,8 @@ class Mission
 						description="Eagle-2 (Pilot)";
 						isPlayable=1;
 					};
-					id=792;
-					type="B_Fighter_Pilot_F";
+					id=941;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7819,7 +7818,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""EAGLE-3""]; }";
@@ -7827,8 +7826,8 @@ class Mission
 						description="Eagle-3 (Pilot)";
 						isPlayable=1;
 					};
-					id=793;
-					type="B_Fighter_Pilot_F";
+					id=942;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7900,7 +7899,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""EAGLE-4""]; }";
@@ -7908,8 +7907,8 @@ class Mission
 						description="Eagle-4 (Pilot)";
 						isPlayable=1;
 					};
-					id=794;
-					type="B_Fighter_Pilot_F";
+					id=943;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7994,7 +7993,7 @@ class Mission
 						angles[]={0,2.3846085,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="call{this setGroupId [""EAGLE-5""]; this setVariable [""cScripts_Player_Unit"", ""EAGLE-5""]; }";
@@ -8002,8 +8001,8 @@ class Mission
 						description="Eagle-5 (Pilot & Flightleader) @Eagle Flight 2";
 						isPlayable=1;
 					};
-					id=796;
-					type="B_Fighter_Pilot_F";
+					id=944;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8075,7 +8074,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""EAGLE-6""]; }";
@@ -8083,8 +8082,8 @@ class Mission
 						description="Eagle-6 (Pilot)";
 						isPlayable=1;
 					};
-					id=797;
-					type="B_Fighter_Pilot_F";
+					id=945;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8156,7 +8155,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""EAGLE-7""]; }";
@@ -8164,8 +8163,8 @@ class Mission
 						description="Eagle-7 (Pilot)";
 						isPlayable=1;
 					};
-					id=798;
-					type="B_Fighter_Pilot_F";
+					id=946;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
@@ -8238,7 +8237,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""EAGLE-8""]; }";
@@ -8246,8 +8245,8 @@ class Mission
 						description="Eagle-8 (Pilot)";
 						isPlayable=1;
 					};
-					id=799;
-					type="B_Fighter_Pilot_F";
+					id=947;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
@@ -8333,7 +8332,7 @@ class Mission
 						angles[]={0,2.3846085,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="call{this setGroupId [""HOG-1""]; this setVariable [""cScripts_Player_Unit"", ""HOG-1""]; }";
@@ -8341,8 +8340,8 @@ class Mission
 						description="Hog-1 (Pilot & Flightleader) @Hog Flight 1";
 						isPlayable=1;
 					};
-					id=801;
-					type="B_Fighter_Pilot_F";
+					id=948;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8414,7 +8413,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""HOG-2""]; }";
@@ -8422,8 +8421,8 @@ class Mission
 						description="Hog-2 (Pilot)";
 						isPlayable=1;
 					};
-					id=802;
-					type="B_Fighter_Pilot_F";
+					id=949;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8495,7 +8494,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""HOG-3""]; }";
@@ -8503,8 +8502,8 @@ class Mission
 						description="Hog-3 (Pilot)";
 						isPlayable=1;
 					};
-					id=803;
-					type="B_Fighter_Pilot_F";
+					id=950;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8576,7 +8575,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""HOG-4""]; }";
@@ -8584,8 +8583,8 @@ class Mission
 						description="Hog-4 (Pilot)";
 						isPlayable=1;
 					};
-					id=804;
-					type="B_Fighter_Pilot_F";
+					id=951;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8670,7 +8669,7 @@ class Mission
 						angles[]={0,2.3846085,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="call{this setGroupId [""HOG-5""]; this setVariable [""cScripts_Player_Unit"", ""HOG-5""]; }";
@@ -8678,8 +8677,8 @@ class Mission
 						description="Hog-5 (Pilot & Flightleader) @Hog Flight 2";
 						isPlayable=1;
 					};
-					id=806;
-					type="B_Fighter_Pilot_F";
+					id=952;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8751,7 +8750,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""HOG-6""]; }";
@@ -8759,8 +8758,8 @@ class Mission
 						description="Hog-6 (Pilot)";
 						isPlayable=1;
 					};
-					id=807;
-					type="B_Fighter_Pilot_F";
+					id=953;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8832,7 +8831,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""HOG-7""]; }";
@@ -8840,8 +8839,8 @@ class Mission
 						description="Hog-7 (Pilot)";
 						isPlayable=1;
 					};
-					id=808;
-					type="B_Fighter_Pilot_F";
+					id=954;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
@@ -8914,7 +8913,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""HOG-8""]; }";
@@ -8922,8 +8921,8 @@ class Mission
 						description="Hog-8 (Pilot)";
 						isPlayable=1;
 					};
-					id=809;
-					type="B_Fighter_Pilot_F";
+					id=955;
+					type="Cav_B_A_Plane_Fighter_Pilot_F";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
@@ -9009,7 +9008,7 @@ class Mission
 						angles[]={0,2.3846085,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="call{this setGroupId [""ATLAS-1""]; this setVariable [""cScripts_Player_Unit"", ""ATLAS-1""]; }";
@@ -9017,8 +9016,8 @@ class Mission
 						description="Atlas-1 (Pilot & Flightleader)@2ND PLATOON TRANSPORT FIXED WING AVIATION";
 						isPlayable=1;
 					};
-					id=811;
-					type="B_Fighter_Pilot_F";
+					id=956;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9090,7 +9089,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""ATLAS-2""]; }";
@@ -9098,8 +9097,8 @@ class Mission
 						description="Atlas-2 (Pilot)";
 						isPlayable=1;
 					};
-					id=812;
-					type="B_Fighter_Pilot_F";
+					id=957;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9171,7 +9170,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""ATLAS-3""]; }";
@@ -9179,8 +9178,8 @@ class Mission
 						description="Atlas-3 (Pilot)";
 						isPlayable=1;
 					};
-					id=813;
-					type="B_Fighter_Pilot_F";
+					id=958;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9252,7 +9251,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""ATLAS-4""]; }";
@@ -9260,8 +9259,8 @@ class Mission
 						description="Atlas-4 (Pilot)";
 						isPlayable=1;
 					};
-					id=814;
-					type="B_Fighter_Pilot_F";
+					id=959;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9346,7 +9345,7 @@ class Mission
 						angles[]={0,2.3846085,0};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="call{this setGroupId [""ATLAS-5""]; this setVariable [""cScripts_Player_Unit"", ""ATLAS-5""]; }";
@@ -9354,8 +9353,8 @@ class Mission
 						description="Atlas-5 (Pilot & Flightleader)@Atlas Flight 2";
 						isPlayable=1;
 					};
-					id=816;
-					type="B_Fighter_Pilot_F";
+					id=960;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9427,7 +9426,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""ATLAS-6""]; }";
@@ -9435,8 +9434,8 @@ class Mission
 						description="Atlas-6 (Pilot)";
 						isPlayable=1;
 					};
-					id=817;
-					type="B_Fighter_Pilot_F";
+					id=961;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9508,7 +9507,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""ATLAS-7""]; }";
@@ -9516,8 +9515,8 @@ class Mission
 						description="Atlas-7 (Pilot)";
 						isPlayable=1;
 					};
-					id=818;
-					type="B_Fighter_Pilot_F";
+					id=962;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
@@ -9590,7 +9589,7 @@ class Mission
 						angles[]={0,2.3846014,0};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""cScripts_Player_Unit"", ""ATLAS-8""]; }";
@@ -9598,8 +9597,8 @@ class Mission
 						description="Atlas-8 (Pilot)";
 						isPlayable=1;
 					};
-					id=819;
-					type="B_Fighter_Pilot_F";
+					id=963;
+					type="Cav_B_A_Plane_Transport_Pilot_F";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
